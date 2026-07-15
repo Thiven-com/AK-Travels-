@@ -1,0 +1,712 @@
+Uri: https://bdcoder.com/html/touran/404.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\404.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/about.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\about.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/blog-details.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\blog-details.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/blog-fullwidth.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\blog-fullwidth.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/blog-left-sidebar.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\blog-left-sidebar.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/blog-right-sidebar.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\blog-right-sidebar.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/blog.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\blog.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/booking.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\booking.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/contact-style-2.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\contact-style-2.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/contact.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\contact.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/css/animate.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\animate.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/animations.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\animations.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/bootstrap-dropdownhover.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\bootstrap-dropdownhover.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/custom-animation.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\custom-animation.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/fancybox.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\fancybox.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/fancybox/blank.gif
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\fancybox\blank.gif
+Content Type: image/gif
+
+Uri: https://bdcoder.com/html/touran/css/fancybox/fancybox_loading.gif
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\fancybox\fancybox_loading.gif
+Content Type: image/gif
+
+Uri: https://bdcoder.com/html/touran/css/fancybox/fancybox_loading@2x.gif
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\fancybox\fancybox_loading@2x.gif
+Content Type: image/gif
+
+Uri: https://bdcoder.com/html/touran/css/fancybox/fancybox_overlay.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\fancybox\fancybox_overlay.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/css/fancybox/fancybox_sprite.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\fancybox\fancybox_sprite.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/css/fancybox/fancybox_sprite@2x.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\fancybox\fancybox_sprite@2x.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/css/flaticon.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\flaticon.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/font-awesome-animation.min.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\font-awesome-animation.min.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/font-awesome.min.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/magnific-popup.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\magnific-popup.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/menu.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\menu.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/pe-icon-7-stroke.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\pe-icon-7-stroke.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/player.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\player.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/responsive.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\responsive.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/style.css
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\style.css
+Content Type: text/css
+
+Uri: https://bdcoder.com/html/touran/css/ytplayer/raster.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\ytplayer\raster.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/css/ytplayer/raster@2x.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\ytplayer\raster@2x.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/css/ytplayer/raster_dot.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\ytplayer\raster_dot.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/css/ytplayer/raster_dot@2x.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\ytplayer\raster_dot@2x.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/css/ytplayer/ytp-regular.eot
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\ytplayer\ytp-regular.eot
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/css/ytplayer/ytp-regular.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\css\ytplayer\ytp-regular.ttf
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/faq.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\faq.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/fonts/Flaticon.eot
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Flaticon.eot
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/Flaticon.eot?
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Flaticon-1.eot
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/Flaticon.svg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Flaticon.svg
+Content Type: image/svg+xml
+
+Uri: https://bdcoder.com/html/touran/fonts/Flaticon.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Flaticon.ttf
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/Flaticon.woff
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Flaticon.woff
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\fontawesome-webfont-1.eot
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\fontawesome-webfont.eot
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://bdcoder.com/html/touran/fonts/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\fontawesome-webfont.ttf
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\fontawesome-webfont.woff2
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\fontawesome-webfont.woff
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/Pe-icon-7-stroke.eot?
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Pe-icon-7-stroke-1.eot
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/Pe-icon-7-stroke.eot?d7yf1v
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Pe-icon-7-stroke.eot
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/Pe-icon-7-stroke.svg?d7yf1v
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Pe-icon-7-stroke.svg
+Content Type: image/svg+xml
+
+Uri: https://bdcoder.com/html/touran/fonts/Pe-icon-7-stroke.ttf?d7yf1v
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Pe-icon-7-stroke.ttf
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/fonts/Pe-icon-7-stroke.woff?d7yf1v
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\fonts\Pe-icon-7-stroke.woff
+Content Type: 
+
+Uri: https://bdcoder.com/html/touran/hotel-1.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\hotel-1.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/hotel-2.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\hotel-2.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/hotel-details.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\hotel-details.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/images/bg/px-2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\bg\px-2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/bg/px-3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\bg\px-3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/bg/px-4.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\bg\px-4.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/a1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\a1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/a2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\a2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/a3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\a3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/b-1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\b-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/b-2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\b-2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/b-3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\b-3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/details-1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\details-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/small-1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\small-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/small-2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\small-2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/blog/small-3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\blog\small-3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/favicon.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\favicon.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/features/1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/features/2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/features/3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/features/ad-1.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\ad-1.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/features/dtl-1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\dtl-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/features/sm-d1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\sm-d1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/features/sm-d2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\sm-d2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/features/sm1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\sm1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/features/sm2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\features\sm2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/gallery/1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\gallery\1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/gallery/2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\gallery\2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/gallery/3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\gallery\3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/gallery/4.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\gallery\4.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/gallery/5.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\gallery\5.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/gallery/6.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\gallery\6.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/logo-1.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\logo-1.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/logo-2.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\logo-2.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/partner/1.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\partner\1.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/partner/2.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\partner\2.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/partner/3.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\partner\3.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/partner/4.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\partner\4.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/partner/5.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\partner\5.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/partner/6.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\partner\6.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/photos/hotel-1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\photos\hotel-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/photos/hotel-2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\photos\hotel-2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/photos/hotel-3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\photos\hotel-3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/photos/map01.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\photos\map01.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/photos/select-input.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\photos\select-input.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/photos/video-img.png
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\photos\video-img.png
+Content Type: image/png
+
+Uri: https://bdcoder.com/html/touran/images/preloader.gif
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\preloader.gif
+Content Type: image/gif
+
+Uri: https://bdcoder.com/html/touran/images/service/1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\service\1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/service/2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\service\2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/service/3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\service\3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/service/4.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\service\4.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/4.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\4.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/5.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\5.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/6.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\6.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/7.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\7.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/8.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\8.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/shop/single-1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\shop\single-1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/slider/1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\slider\1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/slider/2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\slider\2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/slider/3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\slider\3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/team/1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\team\1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/team/2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\team\2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/team/3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\team\3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/team/4.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\team\4.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/testimonials/1.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\testimonials\1.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/testimonials/2.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\testimonials\2.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/testimonials/3.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\testimonials\3.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/images/testimonials/4.jpg
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\images\testimonials\4.jpg
+Content Type: image/jpeg
+
+Uri: https://bdcoder.com/html/touran/index-2.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\index-2.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/index-3.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\index-3.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/index.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\index.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/js/bootstrap-dropdownhover.min.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\bootstrap-dropdownhover.min.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/jquery-3.2.1.min.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\jquery-3.2.1.min.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/jquery-migrate.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\jquery-migrate.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/jquery.fancybox.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\jquery.fancybox.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/magnific-popup.min.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/modernizr.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\modernizr.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/player-min.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\player-min.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/popper.min.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\popper.min.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/js/script.js
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\js\script.js
+Content Type: application/javascript
+
+Uri: https://bdcoder.com/html/touran/login-register.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\login-register.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/packages-details.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\packages-details.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/packages-holiday.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\packages-holiday.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/packages-other.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\packages-other.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/packages-summer.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\packages-summer.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/packages-vacation.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\packages-vacation.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/packages-winter.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\packages-winter.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/places-africa.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\places-africa.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/places-asia.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\places-asia.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/places-category.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\places-category.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/places-details.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\places-details.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/places-other.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\places-other.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/places-slider.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\places-slider.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/places-urope.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\places-urope.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/shop-cart.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\shop-cart.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/shop-checkout.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\shop-checkout.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/shop-single.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\shop-single.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/shop.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\shop.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/team.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\team.html
+Content Type: text/html
+
+Uri: https://bdcoder.com/html/touran/testimonials.html
+File Name: C:\Downloaded Web Sites\bdcoder.com\html\touran\testimonials.html
+Content Type: text/html
+
+Uri: https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i
+File Name: C:\Downloaded Web Sites\bdcoder.com\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkqg.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\lora\v37\0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkqg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJBkqg.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\lora\v37\0QI6MX1D_JOuGQbT0gvTJPa787z5vBJBkqg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lora/v37/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Coq92mQ.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\lora\v37\0QI8MX1D_JOuMw_hLdO6T2wV9KnW-C0Coq92mQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lora/v37/0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoq92mQ.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\lora\v37\0QI8MX1D_JOuMw_hLdO6T2wV9KnW-MoFoq92mQ.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\bdcoder.com\s\roboto\v51\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf
+Content Type: font/ttf
+
