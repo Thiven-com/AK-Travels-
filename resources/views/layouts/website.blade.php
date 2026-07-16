@@ -52,7 +52,7 @@
                                 <ul>
                                     <li>
                                         <i class="flaticon-flash"></i>
-                                        829, Hasan street melbourne, Australia.
+                                        AK Explore and Experience LLP
                                     </li>
                                 </ul>
                             </div>
@@ -111,10 +111,10 @@
                                     <!-- mega-menu start -->
 
                                     <!-- mega-menu end -->
-                                    <li class="nav-item dropdown">
+                                    <!-- <li class="nav-item dropdown">
                                         <a href="{{ route('places') }}" class="nav-link" aria-haspopup="true"
                                             aria-expanded="false">Places</a>
-                                    </li>
+                                    </li> -->
                                     <!-- mega-menu start -->
 
                                     <li class="nav-item dropdown">
