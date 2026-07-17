@@ -2,7 +2,8 @@
 @section('content')
 
     <!-- Inner Section Start -->
-    <section class="inner-area parallax-bg" data-background="{{ asset('website') }}/images/bg/px-1.jpg" data-type="parallax" data-speed="3">
+    <section class="inner-area parallax-bg" data-background="{{ asset('website') }}/images/bg/px-1.jpg" data-type="parallax"
+        data-speed="3">
         <div class="container">
             <div class="section-content">
                 <div class="row">
@@ -22,7 +23,31 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-7 col-lg-7">
                         <h3 class="title">Contact <span>us</span></h3>
-                        <form id="ajax-contact" method="post" action="php/contact.php">
+                        @if(session('success'))
+                            <div class="success-alert" style="background:#d4edda;
+                                    color:#155724;
+                                    border:1px solid #c3e6cb;
+                                    padding:15px 20px;
+                                    border-radius:8px;
+                                    margin-bottom:20px;
+                                    display:flex;
+                                    justify-content:space-between;
+                                    align-items:center;
+                                    font-weight:600;">
+
+                                <span>✅ {{ session('success') }}</span>
+
+                                <button type="button" onclick="this.parentElement.remove();" style="background:none;
+                                           border:none;
+                                           font-size:22px;
+                                           color:#155724;
+                                           cursor:pointer;">
+                                    &times;
+                                </button>
+                            </div>
+                        @endif
+                        <form id="" method="post" action="{{ route('contact.store') }}">
+                            @csrf
                             <div class="row form-row">
                                 <div class="form-group col-md-6">
                                     <input type="text" name="f_name" id="f_name" class="form-control"
@@ -42,13 +67,13 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <div class="contact-textarea">
-                                        <textarea class="form-control" rows="6" placeholder="Wright Message" id="message"
+                                        <textarea class="form-control" rows="6" placeholder="Write Message" id="message"
                                             name="message" required></textarea>
                                         <button class="btn btn-theme mt-4" type="submit" value="Submit Form">Send
                                             Message</button>
                                     </div>
                                 </div>
-                                <div id="form-messages"></div>
+                                <!-- <div id="form-messages"></div> -->
                             </div>
                         </form>
                     </div>
@@ -60,7 +85,7 @@
                             </div>
                             <div class="content">
                                 <h5><a href="#">Contact Info</a></h5>
-                                <p> 829, Hasan street ground <br>melbourne, Australia.</p>
+                                <p> AK Explore and Experience LLP</p>
                             </div>
                         </div>
                         <div class="service-item style-1 border-1px">
@@ -142,4 +167,17 @@
         </div>
     </section>
     <!-- Client Section End -->
+    <script>
+        setTimeout(function () {
+            let alert = document.querySelector('.success-alert');
+            if (alert) {
+                alert.style.transition = "opacity 0.5s";
+                alert.style.opacity = "0";
+
+                setTimeout(function () {
+                    alert.remove();
+                }, 500);
+            }
+        }, 5000);
+    </script>
 @endsection
