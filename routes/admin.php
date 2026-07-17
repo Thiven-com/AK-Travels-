@@ -74,7 +74,7 @@ Route::group(['middleware' => 'admin'], function () {
 
     Route::put('/site-settings', [SiteSettingController::class, 'update'])
         ->name('site.settings.update');
-        
+
 });
 
 Route::get('forgot-password', [AuthController::class, 'showForgotForm'])
@@ -95,6 +95,9 @@ Route::post('reset-password-otp', [AuthController::class, 'resetPassword'])
 
 Route::post('/contact-store', [ContactController::class, 'store'])
     ->name('contact.store');
+
+Route::delete('/contacts/{id}', [ContactController::class, 'destroy'])
+    ->name('contacts.destroy');
 
 Route::get('/services', [ServiceController::class, 'index'])->name('services.all');
 

@@ -3,17 +3,17 @@
         <!-- Logo -->
         <div class="sidebar-logo active">
                 <a href="{{ url('admin/dashboard') }}" class="logo logo-normal d-flex align-items-center">
-                        <img src="{{ asset('website/images/logo.png') }}" alt="Logo"
-                                style="width:50px; margin-right:-10px;">
-                        <img src="{{ asset('website/images/vishwa.png') }}" alt="Vishwa" style="height:50px;">
+                        <img src="{{asset('website')}}/images/aktravels.jpeg" alt="Logo"
+                                style="width:150px; margin-right:-10px;">
+                        
                 </a>
                 <a href="{{url('admin/dashboard')}}" class="logo logo-white">
-                        <img src="{{asset('website')}}/images/logo.png" alt="Img">
-                        <img src="{{asset('website')}}/images/vishwa.png" alt="Img">
+                        <img src="{{asset('website')}}/images/aktravels.jpeg" alt="Img">
+                        
                 </a>
                 <a href="{{url('admin/dashboard')}}" class="logo-small">
-                        <img src="{{asset('website')}}/images/logo.png" alt="Img">
-                        <img src="{{asset('website')}}/images/vishwa.png" alt="Img">
+                        <img src="{{asset('website')}}/images/aktravels.jpeg" alt="Img">
+                        
                 </a>
                 <a id="toggle_btn" href="javascript:void(0);">
                         <i data-feather="chevrons-left" class="feather-16"></i>
@@ -45,13 +45,22 @@
                                 <li class="submenu-open">
                                         <h6 class="submenu-hdr">Schedule</h6>
                                         <ul>
-                                               
+
                                                 <li class="{{ Request::is('admin/contacts') ? 'active' : '' }}"><a
                                                                 href="{{ route('contacts.all') }}"><i
-                                                                        class="ti ti-address-book fs-16 me-2"></i>Contacts</a>
+                                                                        class="ti ti-address-book fs-16 me-2"></i><span>Contacts</span></a>
                                                 </li>
-                                               
+
+
+                                                <li class="{{ Request::is('admin/services') ? 'active' : '' }}"><a
+                                                                href="{{ route('services.all') }}"><i
+                                                                        class="ti ti-briefcase fs-16 me-2"></i><span>Services</span></a>
+                                                </li>
+
                                         </ul>
+
+
+
                                 </li>
 
 
@@ -63,11 +72,12 @@
                                                                         Settings</span><span
                                                                         class="menu-arr ow"></span></a>
                                                 </li> --}}
-                                                <li class="{{ Request::is('admin/site-settings') ? 'active' : '' }}"><a
+                                                <!-- <li class="{{ Request::is('admin/site-settings') ? 'active' : '' }}"><a
                                                                 href="{{ route('site.settings.company') }}"><i
-                                                                        class="ti ti-world fs-16 me-2"></i>Company Settings
+                                                                        class="ti ti-world fs-16 me-2"></i><span>Company
+                                                                        Settings</span>
                                                         </a>
-                                                </li>
+                                                </li> -->
 
                                                 <li>
                                                         <a href="{{ route('admin.logout') }}"

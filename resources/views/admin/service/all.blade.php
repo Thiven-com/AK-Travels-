@@ -4,71 +4,64 @@
 
 
     <style>
-        /* ===============================
-       CONTACT ENQUIRIES PAGE
-    =================================*/
-
+        /* ===========================
+               PAGE HEADER
+            =========================== */
         .page-header-modern {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 25px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid #edf2f7;
         }
 
         .page-header-modern h3 {
-            margin: 0;
             font-size: 28px;
             font-weight: 700;
             color: #0d6efd;
+            margin: 0;
         }
 
         .page-header-modern p {
-            margin: 6px 0 0;
             color: #6c757d;
             font-size: 15px;
+            margin-top: 6px;
         }
 
-        /* Card */
-
+        /* ===========================
+               CARD
+            =========================== */
         .modern-card {
             background: #fff;
-            border-radius: 16px;
+            border-radius: 15px;
             padding: 20px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, .06);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+            overflow: hidden;
         }
 
-        /* Table */
-
+        /* ===========================
+               TABLE
+            =========================== */
         .table {
             margin: 0;
-            border-collapse: separate;
-            border-spacing: 0;
+        }
+
+        .table thead {
+            background: #0d6efd;
         }
 
         .table thead th {
-            background: #0d6efd;
             color: #fff;
             font-weight: 600;
             font-size: 14px;
-            padding: 16px;
             border: none;
+            padding: 15px;
             white-space: nowrap;
         }
 
-        .table thead th:first-child {
-            border-radius: 10px 0 0 10px;
-        }
-
-        .table thead th:last-child {
-            border-radius: 0 10px 10px 0;
-        }
-
         .table tbody td {
-            padding: 16px;
-            border-bottom: 1px solid #edf2f7;
+            padding: 15px;
             vertical-align: middle;
+            border-bottom: 1px solid #eef2f7;
             font-size: 14px;
         }
 
@@ -80,50 +73,32 @@
             background: #f8fbff;
         }
 
-        /* Serial Number */
-
-        .table tbody td:first-child {
-            font-weight: 600;
-            color: #0d6efd;
-        }
-
-        /* Name */
-
-        .contact-name {
+        /* ===========================
+               NAME
+            =========================== */
+        .service-name {
             font-weight: 600;
             color: #212529;
         }
 
-        /* Email */
-
-        .table tbody td:nth-child(3) {
-            color: #0d6efd;
-            font-weight: 500;
-        }
-
-        /* Subject */
-
-        .table tbody td:nth-child(4) {
-            font-weight: 600;
-            color: #495057;
-        }
-
-        /* Message */
-
+        /* ===========================
+               MESSAGE
+            =========================== */
         .message-box {
-            max-width: 320px;
+            max-width: 250px;
+            white-space: normal;
             line-height: 1.6;
-            color: #6c757d;
-            word-break: break-word;
+            color: #555;
         }
 
-        /* Delete Button */
-
+        /* ===========================
+               ACTION BUTTONS
+            =========================== */
         .action-btn {
-            width: 40px;
-            height: 40px;
+            width: 38px;
+            height: 38px;
             border: none;
-            border-radius: 10px;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -132,53 +107,72 @@
         }
 
         .btn-delete {
-            background: #ffe5e8;
+            background: #ffe5e5;
             color: #dc3545;
         }
 
         .btn-delete:hover {
             background: #dc3545;
             color: #fff;
-            transform: scale(1.08);
         }
 
-        /* Empty Data */
+        /* ===========================
+               BADGES
+            =========================== */
+        .badge-gender {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            background: #e7f1ff;
+            color: #0d6efd;
+        }
 
-        .table tbody h5 {
+        .badge-age {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            background: #eef9ef;
+            color: #198754;
+            font-weight: 600;
+        }
+
+        /* ===========================
+               EMPTY STATE
+            =========================== */
+        .table tbody tr td h5 {
             color: #6c757d;
-            margin: 20px 0;
+            font-weight: 600;
         }
 
-        /* Scroll */
-
+        /* ===========================
+               RESPONSIVE
+            =========================== */
         .table-responsive {
             border-radius: 12px;
         }
 
-        /* Responsive */
-
-        @media (max-width:992px) {
-
-            .table {
-                min-width: 900px;
-            }
+        @media(max-width:992px) {
 
             .page-header-modern {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 10px;
             }
+
+            .table {
+                min-width: 1200px;
+            }
         }
     </style>
-
-
     <div class="page-wrapper">
         <div class="content">
 
             <div class="page-header-modern">
-                <h3>Contact Enquiries</h3>
+                <h3>Service Enquiries</h3>
                 <p class="mb-0">
-                    Manage website contact form submissions
+                    Manage website Service form submissions
                 </p>
             </div>
 
@@ -192,52 +186,55 @@
                             <tr>
                                 <th>S.No</th>
                                 <th>Full Name</th>
+                                <th>Date Of Birth</th>
+                                <th>Age</th>
+                                <th>Gender</th>
+                                <th>Contact</th>
                                 <th>Email</th>
-                                <th>Subject</th>
+                                <th>Travel Date</th>
                                 <th>Message</th>
                                 <th width="100">Action</th>
                             </tr>
                         </thead>
                         <tbody>
 
-                            @forelse($contacts as $contact)
+                            @forelse($services as $service)
 
                                 <tr>
 
                                     <td>{{ $loop->iteration }}</td>
 
-                                    <td>
-                                        <span class="contact-name">
-                                            {{ $contact->f_name }}
-                                            {{ $contact->l_name }}
-                                        </span>
-                                    </td>
+                                    <td>{{ $service->full_name }}</td>
 
-                                    <td>{{ $contact->email ?? '-' }}</td>
-
-                                    <td>{{ $contact->subject }}</td>
+                                    <td>{{ $service->dob }}</td>
+                                    <td>{{ $service->age }}</td>
+                                    <td>{{ $service->gender }}</td>
+                                    <td>{{ $service->contact }}</td>
+                                    <td>{{ $service->email ?? '-' }}</td>
+                                    <td>{{ $service->travel_date }}</td>
 
                                     <td>
                                         <div class="message-box">
-                                            {{ \Illuminate\Support\Str::limit($contact->message, 100) }}
+                                            {{ \Illuminate\Support\Str::limit($service->message, 100) }}
                                         </div>
                                     </td>
 
                                     <td>
 
 
-                                        <form action="{{ route('contacts.destroy', $contact->id) }}" method="POST"
+
+                                        <form action="{{ route('services.destroy', $service->id) }}" method="POST"
                                             style="display:inline;">
                                             @csrf
                                             @method('DELETE')
 
                                             <button type="submit" class="action-btn btn-delete"
-                                                onclick="return confirm('Are you sure you want to delete this contact?')">
+                                                onclick="return confirm('Are you sure you want to delete this enquiry?')">
                                                 <i class="ti ti-trash"></i>
                                             </button>
                                         </form>
-                                        <!-- 
-                                                        <button class="action-btn btn-delete delete-btn" data-id="{{ $contact->id }}">
+
+                                        <!-- <button class="action-btn btn-delete delete-btn" data-id="{{ $service->id }}">
                                                             <i class="ti ti-trash"></i>
                                                         </button> -->
 
@@ -249,7 +246,7 @@
 
                                 <tr>
                                     <td colspan="6" class="text-center py-5">
-                                        <h5>No  Found</h5>
+                                        <h5>No Enquiries Found</h5>
                                     </td>
                                 </tr>
 
@@ -266,6 +263,5 @@
 
         </div>
     </div>
-
 
 @endsection
