@@ -27,7 +27,7 @@
                             <div class="offer-price"> Off 40%</div>
                             <div class="post-title-box">
                                 <div class="price-box">
-                                    <h5><span>$</span>400</h5>
+                                    <h5><span>₹</span>400</h5>
                                     <h6>Starts From</h6>
                                 </div>
                                 <div class="title-box">
@@ -38,11 +38,11 @@
                         </div>
                         {{-- services --}}
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                        </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -54,30 +54,32 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Domestic & International Flight Bookings')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/dom1 (2).png" alt="">
+                                    <img src="{{asset('website')}}/images/dom2.webp" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Domestic & International Flight Bookings')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
                         </div>
 
                         {{-- services2 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                    </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -89,30 +91,33 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Private Jets & Helicopter Services')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/hel.png" alt="">
+                                    <img src="{{asset('website')}}/images/jet.webp" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Private Jets & Helicopter Services')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
                         </div>
 
                         {{-- services3 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                                                    <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                    <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                    <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -124,31 +129,34 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Customized Holiday Packages')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/hol1.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/hol2.jpg" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Customized Holiday Packages')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
 
                         {{-- services4 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                            </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -160,20 +168,23 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Hotel Reservations')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/hot2.png" alt="">
+                                    <img src="{{asset('website')}}/images/hot3.webp" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Hotel Reservations')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
 
@@ -181,11 +192,11 @@
                         {{-- services5 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                        </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -197,20 +208,23 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Visa Assistance')">Enquiry
+                                            Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/B2B.png" alt="">
+                                    <img src="{{asset('website')}}/images/visa2.png" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);" onclick="openModal('Visa Assistance')">Enquiry
-                                Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
 
@@ -219,11 +233,11 @@
                         {{-- services6 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                    </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -235,20 +249,22 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Airport Transfers & Local Transportation')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/air.png" alt="">
+                                    <img src="{{asset('website')}}/images/air1.png" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Airport Transfers & Local Transportation')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
 
@@ -256,11 +272,11 @@
                         {{-- services7 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                                    <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                    <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                    <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -273,20 +289,23 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Honeymoon & Luxury Vacations')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/rom1_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/rom_with_bgc.png" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Honeymoon & Luxury Vacations')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
 
@@ -294,11 +313,11 @@
                         {{-- services8 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                            </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -310,20 +329,22 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Family & Group Tours')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/fam1_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/fam_312x205.jpeg" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Family & Group Tours')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
 
@@ -331,11 +352,11 @@
                         {{-- services9 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                        </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -347,20 +368,23 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Corporate Travel Management')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/cor1_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/cor_with_bgc.png" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Corporate Travel Management')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
 
@@ -368,11 +392,11 @@
                         {{-- services10 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                    </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -385,20 +409,23 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Travel Insurance')">Enquiry
+                                            Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/ins_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/ins1_with_bgc.png" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);" onclick="openModal('Travel Insurance')">Enquiry
-                                Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
 
@@ -407,11 +434,11 @@
                         {{-- services11 --}}
 
                         <div class="content">
-                            <ul class="info">
-                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                            </ul>
+                            <!-- <ul class="info">
+                                                                                                                                    <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                    <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                    <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -424,20 +451,23 @@
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                        <li><a href="#">(3 Ratings)</a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+
+
+                                        <a class="btn-theme" href="javascript:void(0);"
+                                            onclick="openModal('Tailor-Made Travel Experiences')">Enquiry Now</a>
+                                        <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a> -->
                                     </ul>
-                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/features/sm-d1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/features/sm-d2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/tia_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/tia1_with_bgc.png" alt="">
                                 </div>
                             </div>
-                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                            <a class="btn-theme" href="javascript:void(0);"
-                                onclick="openModal('Tailor-Made Travel Experiences')">Enquiry Now</a>
+                            <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
+
                         </div>
 
                     </div>
@@ -498,125 +528,125 @@
 
     <!-- Testimonials Section Start -->
     <!-- <section class="testimonials-section pt-80 pb-80">
-                                                                                                    <div class="container">
-                                                                                                        <div class="row">
-                                                                                                            <div class="col-lg-5">
-                                                                                                                <div class="testimonial-video mt-0">
-                                                                                                                    <h5>Latest Hotel Reviews</h5>
-                                                                                                                    <div class="sec-line mb-20"></div>
-                                                                                                                    <h3><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you need to
-                                                                                                                        be on sure there isn’t anything embarras repeat predefined chunks as.</h3>
-                                                                                                                    <a class="btn-theme popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"><i
-                                                                                                                            class="fa fa-play-circle"></i> Play Video</a>
-                                                                                                                    <div class="review-ratings">
-                                                                                                                        <a class="ratings-star" href="#">
-                                                                                                                            <i class="fa fa-star"></i>
-                                                                                                                            <i class="fa fa-star"></i>
-                                                                                                                            <i class="fa fa-star"></i>
-                                                                                                                            <i class="fa fa-star-half-empty"></i>
-                                                                                                                            <i class="fa fa-star-o"></i>
-                                                                                                                        </a>
-                                                                                                                        <a class="ratings-count" href="#">(3 Ratings)</a>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="col-lg-7">
-                                                                                                                <div class="inner-title mt-25">
-                                                                                                                    <h2>Our Client's Say</h2>
-                                                                                                                    <div class="sec-line mb-40"></div>
-                                                                                                                </div>
-                                                                                                                <div class="testimonials-post testimonials_slide owl-carousel owl-theme owl-navst st-three">
-                                                                                                                    <div class="testimonials-item">
-                                                                                                                        <div class="thumb">
-                                                                                                                            <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
-                                                                                                                        </div>
-                                                                                                                        <div class="content">
-                                                                                                                            <h5>Horem Due <small>- Traveler ut illum</small></h5>
-                                                                                                                            <ul>
-                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                                                            </ul>
-                                                                                                                            <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
-                                                                                                                                need to be sure there isn’t anything embarrassing hidden in the middle often repeat
-                                                                                                                                predefined chunks as necessary, making this the first true generator on the Internet.
-                                                                                                                            </p>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                    <div class="testimonials-item">
-                                                                                                                        <div class="thumb">
-                                                                                                                            <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
-                                                                                                                        </div>
-                                                                                                                        <div class="content">
-                                                                                                                            <h5>Horem Due <small>- Traveler ut illum</small></h5>
-                                                                                                                            <ul>
-                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                                                            </ul>
-                                                                                                                            <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
-                                                                                                                                need to be sure there isn’t anything embarrassing hidden in the middle often repeat
-                                                                                                                                predefined chunks as necessary, making this the first true generator on the Internet.
-                                                                                                                            </p>
-                                                                                                                        </div>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </section> -->
+                                                                                                                                                                                                                                                <div class="container">
+                                                                                                                                                                                                                                                    <div class="row">
+                                                                                                                                                                                                                                                        <div class="col-lg-5">
+                                                                                                                                                                                                                                                            <div class="testimonial-video mt-0">
+                                                                                                                                                                                                                                                                <h5>Latest Hotel Reviews</h5>
+                                                                                                                                                                                                                                                                <div class="sec-line mb-20"></div>
+                                                                                                                                                                                                                                                                <h3><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you need to
+                                                                                                                                                                                                                                                                    be on sure there isn’t anything embarras repeat predefined chunks as.</h3>
+                                                                                                                                                                                                                                                                <a class="btn-theme popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"><i
+                                                                                                                                                                                                                                                                        class="fa fa-play-circle"></i> Play Video</a>
+                                                                                                                                                                                                                                                                <div class="review-ratings">
+                                                                                                                                                                                                                                                                    <a class="ratings-star" href="#">
+                                                                                                                                                                                                                                                                        <i class="fa fa-star"></i>
+                                                                                                                                                                                                                                                                        <i class="fa fa-star"></i>
+                                                                                                                                                                                                                                                                        <i class="fa fa-star"></i>
+                                                                                                                                                                                                                                                                        <i class="fa fa-star-half-empty"></i>
+                                                                                                                                                                                                                                                                        <i class="fa fa-star-o"></i>
+                                                                                                                                                                                                                                                                    </a>
+                                                                                                                                                                                                                                                                    <a class="ratings-count" href="#">(3 Ratings)</a>
+                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                        <div class="col-lg-7">
+                                                                                                                                                                                                                                                            <div class="inner-title mt-25">
+                                                                                                                                                                                                                                                                <h2>Our Client's Say</h2>
+                                                                                                                                                                                                                                                                <div class="sec-line mb-40"></div>
+                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                            <div class="testimonials-post testimonials_slide owl-carousel owl-theme owl-navst st-three">
+                                                                                                                                                                                                                                                                <div class="testimonials-item">
+                                                                                                                                                                                                                                                                    <div class="thumb">
+                                                                                                                                                                                                                                                                        <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                    <div class="content">
+                                                                                                                                                                                                                                                                        <h5>Horem Due <small>- Traveler ut illum</small></h5>
+                                                                                                                                                                                                                                                                        <ul>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                                                                                                                                                                                        </ul>
+                                                                                                                                                                                                                                                                        <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
+                                                                                                                                                                                                                                                                            need to be sure there isn’t anything embarrassing hidden in the middle often repeat
+                                                                                                                                                                                                                                                                            predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                                                                                                                                                                                                                        </p>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                <div class="testimonials-item">
+                                                                                                                                                                                                                                                                    <div class="thumb">
+                                                                                                                                                                                                                                                                        <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                    <div class="content">
+                                                                                                                                                                                                                                                                        <h5>Horem Due <small>- Traveler ut illum</small></h5>
+                                                                                                                                                                                                                                                                        <ul>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                                                                                                                                                                                            <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                                                                                                                                                                                        </ul>
+                                                                                                                                                                                                                                                                        <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
+                                                                                                                                                                                                                                                                            need to be sure there isn’t anything embarrassing hidden in the middle often repeat
+                                                                                                                                                                                                                                                                            predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                                                                                                                                                                                                                        </p>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                            </section> -->
     <!-- Testimonials Section End -->
 
     <!-- Client Section Start -->
     <!-- <section class="client-section bg-f8 style-2 pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="client_carousel" class="owl-carousel">
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/3.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/4.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/5.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/6.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+                                                                                                                                                    <div class="container">
+                                                                                                                                                        <div class="row">
+                                                                                                                                                            <div class="col-md-12">
+                                                                                                                                                                <div id="client_carousel" class="owl-carousel">
+                                                                                                                                                                    <div class="item">
+                                                                                                                                                                        <div class="client-img-item">
+                                                                                                                                                                            <img src="{{asset('website')}}/images/partner/1.png" alt="">
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="item">
+                                                                                                                                                                        <div class="client-img-item">
+                                                                                                                                                                            <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="item">
+                                                                                                                                                                        <div class="client-img-item">
+                                                                                                                                                                            <img src="{{asset('website')}}/images/partner/3.png" alt="">
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="item">
+                                                                                                                                                                        <div class="client-img-item">
+                                                                                                                                                                            <img src="{{asset('website')}}/images/partner/4.png" alt="">
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="item">
+                                                                                                                                                                        <div class="client-img-item">
+                                                                                                                                                                            <img src="{{asset('website')}}/images/partner/5.png" alt="">
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="item">
+                                                                                                                                                                        <div class="client-img-item">
+                                                                                                                                                                            <img src="{{asset('website')}}/images/partner/6.png" alt="">
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                    <div class="item">
+                                                                                                                                                                        <div class="client-img-item">
+                                                                                                                                                                            <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </section> -->
     <!-- Client Section End -->
 
 
@@ -680,16 +710,17 @@
             <span class="close" onclick="closeModal()">&times;</span>
 
             <h2>Travel Booking</h2>
-            <h2 id="serviceName" style="
-                                                                                display:inline-block;
+            <h2 id="serviceName"
+                style="
+                                                                                                                                                                                                                            display:inline-block;
 
-                                                                                color:#000;
-                                                                                padding:8px;
-                                                                                border-radius:6px;
-                                                                                font-size:18px;
-                                                                                font-weight:600;
-                                                                                margin: 0 15px;
-                                                                            ">
+                                                                                                                                                                                                                            color:#000;
+                                                                                                                                                                                                                            padding:8px;
+                                                                                                                                                                                                                            border-radius:6px;
+                                                                                                                                                                                                                            font-size:18px;
+                                                                                                                                                                                                                            font-weight:600;
+                                                                                                                                                                                                                            margin: 0 15px;
+                                                                                                                                                                                                                        ">
                 Selected Service
             </h2>
 

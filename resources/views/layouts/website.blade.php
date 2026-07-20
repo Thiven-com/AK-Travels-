@@ -95,7 +95,7 @@
                     <nav class="navbar navbar-expand-lg navbar-dark">
                         <div class="container">
                             <!-- header dropdown buttons end-->
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="{{ route('home') }}">
                                 <img id="logo_img" src="{{asset('website')}}/images/logo1.png" alt=""></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbar-collapse-1" aria-controls="navbar-collapse-1"
