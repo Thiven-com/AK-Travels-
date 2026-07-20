@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="description" content="" />
@@ -11,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>Touran - Travel & Tour HTMl5 Template</title>
+    <title>AK Explore and Experience LLP</title>
 
 
     <!------------------------------------------
@@ -30,7 +31,7 @@
     <link rel="stylesheet" href="{{asset('website')}}/css/responsive.css">
 
     <!-- Favicon -->
-    <link href="{{asset('website')}}/images/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="{{asset('website')}}/images/fav.png" rel="shortcut icon" type="image/png">
 
 </head>
 
@@ -60,11 +61,27 @@
                         <div class="col-md-5">
                             <div class="social-icons">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="https://whatsapp.com/channel/0029Vb6j2x0J3jv2axLvLK31" target="_blank"
+                                            title="WhatsApp">
+                                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                        </a></li>
+
+                                    <li> <a href="https://www.facebook.com/share/1FLyMU7BbV/" target="_blank"
+                                            title="Facebook">
+                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                        </a></li>
+
+                                    <li><a href="https://www.instagram.com/ak_exploreandexperience?igsh=MTkxanVob3Nyamticw=="
+                                            target="_blank" title="Instagram"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a></li>
+
+                                    <li> <a href="https://www.aktravelsolutions.in" target="_blank" title="Website"><i
+                                                class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+
+                                    <li><a href="https://youtube.com/@akexploreandexperience?si=zGFZ9nx__qJwICT6"
+                                            target="_blank" title="YouTube">
+                                            <i class="fab fa-youtube" aria-hidden="true"></i></li>
+                                    </a>
                                 </ul>
                             </div>
                         </div>
@@ -79,7 +96,7 @@
                         <div class="container">
                             <!-- header dropdown buttons end-->
                             <a class="navbar-brand" href="index.html">
-                                <img id="logo_img" src="{{asset('website')}}/images/logo-1.png" alt=""></a>
+                                <img id="logo_img" src="{{asset('website')}}/images/logo1.png" alt=""></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbar-collapse-1" aria-controls="navbar-collapse-1"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -143,7 +160,7 @@
                                         </ul>
                                     </div>
 
-                                    <div class="btn-group">
+                                    <!-- <div class="btn-group">
                                         <button type="button" class="btn dropdown-toggle" id="header-drop-4"
                                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
                                                 class="fa fa-shopping-bag"></i><span class="menu-cart">3</span></button>
@@ -170,11 +187,11 @@
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
-                                <!-- main-menu end -->
+                                </div> -->
+                                    <!-- main-menu end -->
 
+                                </div>
                             </div>
-                        </div>
                     </nav>
                 </div>
                 <!-- main-navigation end -->
@@ -193,17 +210,36 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-item footer-widget-one">
-                                <img class="footer-logo mb-25" src="{{asset('website')}}/images/logo-1.png" alt="">
-                                <p>Dolorum quae quis cumque officia labore delectus at animi ducimus non nisi, dolores
-                                    sapiente</p>
+                                <img class="footer-logo mb-25" src="{{asset('website')}}/images/logo1.png" alt="">
+                                <p>AK Travels – Explore & Experience is a premium travel brand dedicated to making every
+                                    journey memorable.</p>
                                 <hr>
                                 <h6>Follow<span> Us</span></h6>
                                 <ul class="social-icon bg-transparent bordered-theme">
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+
+
+                                    <li><a href="https://whatsapp.com/channel/0029Vb6j2x0J3jv2axLvLK31" target="_blank"
+                                            title="WhatsApp">
+                                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                        </a></li>
+
+                                    <li> <a href="https://www.facebook.com/share/1FLyMU7BbV/" target="_blank"
+                                            title="Facebook">
+                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                        </a></li>
+
+                                    <li><a href="https://www.instagram.com/ak_exploreandexperience?igsh=MTkxanVob3Nyamticw=="
+                                            target="_blank" title="Instagram"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a></li>
+
+                                    <li> <a href="https://www.aktravelsolutions.in" target="_blank" title="Website"><i
+                                                class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+
+                                    <li><a href="https://youtube.com/@akexploreandexperience?si=zGFZ9nx__qJwICT6"
+                                            target="_blank" title="YouTube">
+                                            <i class="fab fa-youtube" aria-hidden="true"></i></li>
+                                    </a>
+
                                 </ul>
                             </div>
                         </div>
@@ -215,12 +251,11 @@
                                     <div class="border-style-3"></div>
                                 </div>
                                 <ul class="footer-list">
-                                    <li><a href="#">Sign up to theme</a></li>
-                                    <li><a href="#">Log in account</a></li>
-                                    <li><a href="#">Help and support</a></li>
-                                    <li><a href="#">Read our blog</a></li>
-                                    <li><a href="#">Visit our help section</a></li>
-                                    <li><a href="#">Donation Fund</a></li>
+                                    <li><a href="{{ route('services') }}">Fly Anywhere</a></li>
+                                    <li><a href="{{ route('services') }}">Comfortable Stays</a></li>
+                                    <li><a href="{{ route('services') }}">Travel Documentation</a></li>
+                                    <li><a href="{{ route('services') }}">Romantic Escapes</a></li>
+
                                 </ul>
 
                             </div>
@@ -234,12 +269,10 @@
                                     <div class="border-style-3"></div>
                                 </div>
                                 <ul class="footer-list">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Gallery</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('services') }}">Services</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact</a></li>
                                 </ul>
 
                             </div>
@@ -252,9 +285,10 @@
                                     <div class="border-style-3"></div>
                                 </div>
                                 <ul class="footer-list footer-contact mb-10">
-                                    <li><i class="pe-7s-call"></i> Phone: 001 (407) 901-6400</li>
-                                    <li><i class="pe-7s-print"></i> Fax: 001 (407) 901-6400</li>
-                                    <li><i class="pe-7s-mail"></i> <a href="mailto:">Email: info@bdCoder.com</a></li>
+                                    <li><i class="pe-7s-call"></i> Phone:+91-9916170891 </li>
+
+                                    <li><i class="pe-7s-mail"></i> <a href="mailto:">Email: aktravels@solutions.com</a>
+                                    </li>
                                 </ul>
                                 <div class="footer-item">
                                     <h6>News <span>letter</span></h6>
@@ -277,7 +311,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <p>© 2019, All Rights Reserved, Design & Developed By:<a href="#"> bdCoder</a></p>
+                        <p>© 2026, All Rights Reserved, Design & Developed By:<a href="#"> ThiVen</a></p>
                     </div>
                 </div>
             </div>

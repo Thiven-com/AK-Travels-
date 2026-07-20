@@ -2,10 +2,32 @@
 @extends('layout.mainlayout')
 
 @section('content')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <div style="background:linear-gradient(135deg,#0d6efd,#4f8dfd);padding:35px;border-radius:18px;display:flex;justify-content:space-between;align-items:center;color:#fff;box-shadow:0 10px 30px rgba(13,110,253,.25);margin-top: 100px;
+            margin-left: 270px; margin-bottom:-150px; margin-right: 20px;">
+
+        <div>
+            <h2 style="margin:0;font-size:32px;font-weight:700;">
+                👋 Welcome, Admin
+            </h2>
+
+            <p style="margin:10px 0 0;font-size:16px;opacity:.9;">
+                Manage your dashboard, monitor enquiries, and keep everything organized in one place.
+            </p>
+        </div>
+
+        <div
+            style="width:90px;height:90px;border-radius:50%;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:42px;">
+            <i class="fas fa-user"></i>
+        </div>
+
+    </div>
 
 
     <div class="dashboard-wrapper">
-        <div class="row justify-content-center g-4 w-100">
+        <div class="row justify-content-center g-4 w-100" style="margin-left: 70px;">
 
             <div class="col-lg-4 col-md-5 col-sm-6">
                 <div class="dashboard-card primary">

@@ -10,9 +10,8 @@
                         <div class="login-userset">
                             <div class="final-logo logo-normal">
                                 <a href="{{ url('admin/dashboard') }}" class="logo logo-normal d-flex align-items-center">
-                                    <img src="{{ asset('website/images/logo.png') }}" alt="Logo"
-                                        style="width:50px; margin-right:-10px;">
-                                    <img src="{{ asset('website/images/vishwa.png') }}" alt="Vishwa" style="height:50px;">
+                                    <img src="{{ asset('website') }}/images/logo1.png" alt="Logo"
+                                        style="width:400px; margin-right:-10px;">
                                 </a>
                             </div>
                             {{-- <a href="{{url('index')}}" class="login-logo logo-white">
@@ -105,7 +104,7 @@
             </div>
             <div class="col-lg-6 p-0">
                 <div class="login-img">
-                    <img src="{{ asset('website/images/joyy.png') }}" alt="img">
+                    <img src="{{ asset('website') }}/images/log.png" alt="img">
                 </div>
             </div>
         </div>
