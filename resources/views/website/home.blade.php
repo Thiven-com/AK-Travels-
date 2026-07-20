@@ -19,7 +19,8 @@
                         <!-- Slide Text Layer -->
                         <div class="slide-text slide-style-left st-two">
                             <h1>Get a tour</h1>
-                            <h2>At AK Explore and Experience, <span>we aim</span> to make every <span>journey smooth</span></h2>
+                            <h2>At AK Explore and Experience, <span>we aim</span> to make every <span>journey smooth</span>
+                            </h2>
                         </div>
                         <!-- Package Box -->
                         <div class="package-box">
@@ -42,7 +43,8 @@
                         <!-- Slide Text Layer -->
                         <div class="slide-text slide-style-right st-two">
                             <h1>Get a tour</h1>
-                            <h2>Stay tuned as we bring you the <span>best deals</span> personalized <span>services</span></h2>
+                            <h2>Stay tuned as we bring you the <span>best deals</span> personalized <span>services</span>
+                            </h2>
                         </div><!-- Package Box -->
                         <div class="package-box slide-style-right">
                             <h1><span>45%</span> off</h1>
@@ -65,7 +67,7 @@
                         <div class="slide-text slide-style-center st-two">
                             <h1>Get a tour</h1>
                             <h2>Explore more, <span>Experience better</span> — with AK Explore and Experience LLP.</h2>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -496,111 +498,118 @@
 
     <!-- Features Section Start -->
     <section class="feature-section over-layer-black pt-85 pb-90">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h4>Why Choose Us?</h4>
-                <h2>Why <span>Travel</span> With Us</h2>
-                <p>We are committed to delivering seamless, memorable, and hassle-free travel experiences with trusted service and personalized care.</p>
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h4>Why Choose Us?</h4>
+                    <h2>Why <span>Travel</span> With Us</h2>
+                    <p>We are committed to delivering seamless, memorable, and hassle-free travel experiences with trusted
+                        service and personalized care.</p>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!-- Personalized Travel Planning -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-map"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Personalized <span>Travel Planning</span></h3>
+                            <p>Customized travel itineraries designed to match your preferences, budget, and travel goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Transparent Pricing -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-wallet"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Transparent <span>Pricing</span></h3>
+                            <p>Enjoy honest pricing with no hidden charges, ensuring complete transparency from booking to
+                                travel.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dedicated Customer Support -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-support"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Dedicated <span>Customer Support</span></h3>
+                            <p>Our friendly support team is available to assist you before, during, and after your journey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carefully Curated Travel Experiences -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-world"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Curated <span>Travel Experiences</span></h3>
+                            <p>Every destination and itinerary is thoughtfully selected to provide unforgettable travel
+                                memories.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reliable Travel Partners -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-team"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Reliable <span>Travel Partners</span></h3>
+                            <p>We collaborate with trusted airlines, hotels, and local partners to ensure quality service.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End-to-End Travel Assistance -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="feature-item">
+                        <div class="icon-box">
+                            <i class="flaticon-airplane"></i>
+                        </div>
+                        <div class="content">
+                            <h3>End-to-End <span>Travel Assistance</span></h3>
+                            <p>From planning and booking to your return journey, we provide complete travel support.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commitment to Customer Satisfaction -->
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="feature-item last">
+                        <div class="icon-box">
+                            <i class="flaticon-like"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Customer <span>Satisfaction</span></h3>
+                            <p>Your happiness is our priority, and we strive to exceed your expectations with every trip.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-
-        <div class="row">
-
-            <!-- Personalized Travel Planning -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="feature-item">
-                    <div class="icon-box">
-                        <i class="flaticon-map"></i>
-                    </div>
-                    <div class="content">
-                        <h3>Personalized <span>Travel Planning</span></h3>
-                        <p>Customized travel itineraries designed to match your preferences, budget, and travel goals.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Transparent Pricing -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="feature-item">
-                    <div class="icon-box">
-                        <i class="flaticon-wallet"></i>
-                    </div>
-                    <div class="content">
-                        <h3>Transparent <span>Pricing</span></h3>
-                        <p>Enjoy honest pricing with no hidden charges, ensuring complete transparency from booking to travel.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Dedicated Customer Support -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="feature-item">
-                    <div class="icon-box">
-                        <i class="flaticon-support"></i>
-                    </div>
-                    <div class="content">
-                        <h3>Dedicated <span>Customer Support</span></h3>
-                        <p>Our friendly support team is available to assist you before, during, and after your journey.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Carefully Curated Travel Experiences -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="feature-item">
-                    <div class="icon-box">
-                        <i class="flaticon-world"></i>
-                    </div>
-                    <div class="content">
-                        <h3>Curated <span>Travel Experiences</span></h3>
-                        <p>Every destination and itinerary is thoughtfully selected to provide unforgettable travel memories.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Reliable Travel Partners -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="feature-item">
-                    <div class="icon-box">
-                        <i class="flaticon-team"></i>
-                    </div>
-                    <div class="content">
-                        <h3>Reliable <span>Travel Partners</span></h3>
-                        <p>We collaborate with trusted airlines, hotels, and local partners to ensure quality service.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- End-to-End Travel Assistance -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="feature-item">
-                    <div class="icon-box">
-                        <i class="flaticon-airplane"></i>
-                    </div>
-                    <div class="content">
-                        <h3>End-to-End <span>Travel Assistance</span></h3>
-                        <p>From planning and booking to your return journey, we provide complete travel support.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Commitment to Customer Satisfaction -->
-            <div class="col-lg-4 col-md-6 mx-auto">
-                <div class="feature-item last">
-                    <div class="icon-box">
-                        <i class="flaticon-like"></i>
-                    </div>
-                    <div class="content">
-                        <h3>Customer <span>Satisfaction</span></h3>
-                        <p>Your happiness is our priority, and we strive to exceed your expectations with every trip.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+    </section>
     <!-- Feature Section End -->
 
     <!-- Special Packages Section Start -->
@@ -609,10 +618,13 @@
             <div class="row">
                 <div class="col-md-9">
                     <div class="section-title stitle-left">
-                        <h4>Our special Services</h4>
-                        <h2>Special <span>Services</span> Offer</h2>
-                        <p>Deserunt quia ducimus ut illum optio cum eum voluptate corrupti numquam travel ipsum dolor
-                            consectetur adipisicing. Quia tempore, ex delectus rerum optio sapiente, magnam ullam </p>
+                        <h4>Our Special Services</h4>
+                        <h2>Exceptional <span>Travel Services</span> We Offer</h2>
+
+                        <p>We offer comprehensive travel solutions tailored to your needs, ensuring every journey is
+                            seamless, stress-free, and unforgettable. From flight bookings and visa assistance to customized
+                            holiday packages and luxury travel, our dedicated team is committed to delivering exceptional
+                            service at every step. 🌍✈️ </p>
                     </div>
                 </div>
             </div>
@@ -643,13 +655,13 @@
                                                 <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
                                                 <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
                                             </ul>
-                                            <p>Travel ipsum dolor sit amet, consectetur adipisicing. Quia tempore, ex
-                                                delectus rerum optio sapiente, magnam ullam ipsum voluptate maxime
-                                                blanditiis.</p>
+                                            <p>Explore destinations worldwide with reliable flight booking services,
+                                                offering the best fares, convenient schedules, and personalized travel
+                                                assistance.</p>
                                             <div class="small-hotel">
                                                 <div class="text">
-                                                    <h6>Hotels to Stay</h6>
-                                                    <h5>Hotel Saladi Tajo</h5>
+                                                    <h6>Fly Anywhere</h6>
+                                                    <h5>Domestic & International Flight Bookings</h5>
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -693,13 +705,13 @@
                                                 <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
                                                 <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
                                             </ul>
-                                            <p>Travel ipsum dolor sit amet, consectetur adipisicing. Quia tempore, ex
-                                                delectus rerum optio sapiente, magnam ullam ipsum voluptate maxime
-                                                blanditiis.</p>
+                                            <p>Enjoy personalized air travel with private jets and helicopter charters,
+                                                ensuring luxury, convenience, and efficient journeys to your desired
+                                                destinations.</p>
                                             <div class="small-hotel">
                                                 <div class="text">
-                                                    <h6>Hotels to Stay</h6>
-                                                    <h5>Hotel Saladi Tajo</h5>
+                                                    <h6>Exclusive Air Charter</h6>
+                                                    <h5>Private Jets & Helicopter Services</h5>
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -743,13 +755,12 @@
                                                 <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
                                                 <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
                                             </ul>
-                                            <p>Travel ipsum dolor sit amet, consectetur adipisicing. Quia tempore, ex
-                                                delectus rerum optio sapiente, magnam ullam ipsum voluptate maxime
-                                                blanditiis.</p>
+                                            <p>From relaxing beach vacations to exciting adventure tours, enjoy customized
+                                                holiday packages crafted to suit your travel preferences and schedule.</p>
                                             <div class="small-hotel">
                                                 <div class="text">
-                                                    <h6>Hotels to Stay</h6>
-                                                    <h5>Hotel Saladi Tajo</h5>
+                                                    <h6>Personalized Travel Plans</h6>
+                                                    <h5>Customized Holiday Packages</h5>
                                                     <ul>
                                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -791,8 +802,9 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="video-sec">
-                        <h2>Travel <span>Award</span> Year <span>2023</span></h2>
-                        <p> Discover vestibulum <span>pharetra orci turpis</span>, ut interdum </p>
+                        <h2>Trusted <span>Travel</span> Excellence </h2>
+                        <p> Delivering exceptional travel experiences with personalized service, trusted partnerships, and a
+                            commitment to customer satisfaction every step of the way. 🌍✈️ </p>
                         <div class="video-content">
                             <img src="{{asset('website')}}/images/photos/video-img.png" alt="image">
                             <div class="overlay">
@@ -860,9 +872,10 @@
         <div class="container">
             <div class="row">
                 <div class="section-title">
-                    <h4>Touran Hotel Collection</h4>
-                    <h2>Latest <span>Hotel</span> Collection</h2>
-                    <p>Deserunt quia ducimus ut illum optio cum eum voluptate corrupti numquam</p>
+                    <h4>Featured Collection Services</h4>
+                    <h2>Our Services</h2>
+                    <p>We provide complete travel solutions designed to make every journey comfortable, convenient, and
+                        memorable.</p>
                 </div>
             </div>
             <div class="row">
@@ -874,8 +887,8 @@
                                     <img src="{{asset('website')}}/images/photos/hotel-1.jpg" alt="">
                                 </div>
                                 <div class="content">
-                                    <h4>Hotel Peelamedu Tom</h4>
-                                    <h5>peelamedu, cbe, india</h5>
+                                    <h4>Romantic Escapes</h4>
+                                    <h5>Honeymoon & Luxury Vacations</h5>
                                     <ul>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -884,10 +897,12 @@
                                         <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
                                         <li><a href="#">(3 Ratings)</a></li>
                                     </ul>
-                                    <p>consectetur adipoing elit. Vestibulum pharetra in. Integer lacinia lectus...</p>
+                                    <p>Celebrate special moments with exclusive honeymoon and luxury vacation packages
+                                        featuring premium stays, unforgettable experiences, and personalized travel
+                                        services..</p>
                                     <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                     <h3>Off <span>-30%</span></h3>
-                                    <a class="btn-theme" href="#">Book Now</a>
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -897,8 +912,8 @@
                                     <img src="{{asset('website')}}/images/photos/hotel-2.jpg" alt="">
                                 </div>
                                 <div class="content">
-                                    <h4>Hotel Raleepado Due</h4>
-                                    <h5>peelamedu, cbe, india</h5>
+                                    <h4>Travel Documentation</h4>
+                                    <h5>Visa Assistance</h5>
                                     <ul>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -907,10 +922,11 @@
                                         <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
                                         <li><a href="#">(3 Ratings)</a></li>
                                     </ul>
-                                    <p>consectetur adipoing elit. Vestibulum pharetra in. Integer lacinia lectus...</p>
+                                    <p>Get reliable visa assistance with end-to-end support, ensuring a smooth application
+                                        process and hassle-free travel to your chosen destination..</p>
                                     <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                     <h3>Off <span>-30%</span></h3>
-                                    <a class="btn-theme" href="#">Book Now</a>
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -920,8 +936,8 @@
                                     <img src="{{asset('website')}}/images/photos/hotel-3.jpg" alt="">
                                 </div>
                                 <div class="content">
-                                    <h4>Hotel Tralemdo Tom</h4>
-                                    <h5>peelamedu, cbe, india</h5>
+                                    <h4>Personalized Travel Plans</h4>
+                                    <h5>Customized Holiday Packages</h5>
                                     <ul>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
                                         <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -930,10 +946,11 @@
                                         <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
                                         <li><a href="#">(3 Ratings)</a></li>
                                     </ul>
-                                    <p>consectetur adipoing elit. Vestibulum pharetra in. Integer lacinia lectus...</p>
+                                    <p>From relaxing beach vacations to exciting adventure tours, enjoy customized holiday
+                                        packages crafted to suit your travel preferences and schedule..</p>
                                     <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
                                     <h3>Off <span>-30%</span></h3>
-                                    <a class="btn-theme" href="#">Book Now</a>
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -951,27 +968,39 @@
                 <div class="col-xl-7 col-lg-12">
                     <div class="global-area">
                         <div class="inner-title">
-                            <h2>Now We Are Globaly Everywhare</h2>
-                            <h3>Discover vestibulum <span>pharetra orci turpis</span>, ut interdum </h3>
+                            <h2>Making Global Travel Easy</h2>
+                            <h3>Your <span>Trusted Travel Partner</span> for Every Journey</h3>
                             <div class="sec-line"></div>
                         </div>
-                        <p>Pellentesque consectetur condimentum libero, interdum aliquet enim sollic tudin ut. Donec dapibus
-                            tempor odio eu aliquet. Vivamus ultricies augue ut.</p>
-                        <h4>Condimentum at sed sapien:</h4>
+                        <p>
+                            We specialize in creating unforgettable travel experiences with personalized
+                            tour packages, flight bookings, hotel reservations, and visa assistance.
+                            Our dedicated team ensures every journey is comfortable, hassle-free, and
+                            tailored to your preferences.
+                        </p>
+                        <h4>Our Travel Services Include:</h4>
+
                         <ul>
-                            <li>consectetur adipting elit.</li>
-                            <li>consectetur adipting elit.</li>
-                            <li>consectetur adipting elit.</li>
-                            <li>consectetur adipting elit.</li>
+                            <li>Domestic and International Tour Packages</li>
+                            <li>Flight, Hotel, and Transportation Bookings</li>
+                            <li>Visa Assistance and Travel Insurance</li>
+                            <li>24/7 Customer Support Throughout Your Journey</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-8 col-md-10">
+                <div class="col-xl-5 col-lg-8 col-md-10" style="margin-top:20px;">
                     <div class="map-area">
-                        <img src="{{asset('website')}}/images/photos/map01.png" alt="image">
+                        <iframe src="https://www.google.com/maps?q=Bengaluru,Karnataka&output=embed" width="100%"
+                            height="400" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
-                    <p class="map-content">Discover vestibulum <span class="color-light">Call:</span>
-                        <span>+88095085363</span>, ut interdum </p>
+                    <p class="map-content">
+                        Need help planning your next trip?
+                        <span class="color-light">Call:</span>
+                        <span>+91-9916170891</span>
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -983,9 +1012,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="section-title">
-                    <h4>Touran Travel Gallery</h4>
-                    <h2>Touran <span>Tour</span> Gallery</h2>
-                    <p>Deserunt quia ducimus ut illum optio cum eum voluptate corrupti numquam</p>
+                    <h4>Travel Gallery</h4>
+                    <h2>Explore <span>Our</span> Travel Moments</h2>
+                    <p>Discover unforgettable journeys, stunning destinations, and memorable moments. Every photo reflects
+                        our passion for creating exceptional travel experiences for our valued clients. 🌍✈️📸</p>
                 </div>
             </div>
             <div class="row gallery-items">
@@ -1171,13 +1201,15 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="inner-title title-center">
-                        <h2>Now We Are Globaly Everywhare</h2>
-                        <h3>Discover vestibulum <span>pharetra orci turpis</span>, ut interdum </h3>
+                        <h2>Now We Are Globaly Everywhere</h2>
+                        <h3>Connecting <span>You to Destinations</span>, Around the World </h3>
                         <div class="sec-line line-center"></div>
                     </div>
-                    <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything
-                        embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to
-                        repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                    <p>At AK Explore and Experience LLP, we proudly serve travelers across the globe with reliable,
+                        personalized, and hassle-free travel solutions. Whether you're planning a business trip, a family
+                        vacation, a honeymoon, or an international adventure, our expert team ensures every journey is
+                        seamless from start to finish.</p>
+
                     <a class="btn-theme" href="#">Download App</a>
                     <a class="btn-theme btn-two" href="#">Subscribe Now</a>
                 </div>
@@ -1547,50 +1579,50 @@
     <!-- Contact Section End -->
 
     <!-- Client Section Start -->
-    <section class="client-section bg-f8 pb-70 pt-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="client_carousel" class="owl-carousel">
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/3.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/4.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/5.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/6.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- <section class="client-section bg-f8 pb-70 pt-70">
+                                                                <div class="container">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12">
+                                                                            <div id="client_carousel" class="owl-carousel">
+                                                                                <div class="item">
+                                                                                    <div class="client-img-item">
+                                                                                        <img src="{{asset('website')}}/images/partner/1.png" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <div class="client-img-item">
+                                                                                        <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <div class="client-img-item">
+                                                                                        <img src="{{asset('website')}}/images/partner/3.png" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <div class="client-img-item">
+                                                                                        <img src="{{asset('website')}}/images/partner/4.png" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <div class="client-img-item">
+                                                                                        <img src="{{asset('website')}}/images/partner/5.png" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <div class="client-img-item">
+                                                                                        <img src="{{asset('website')}}/images/partner/6.png" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <div class="client-img-item">
+                                                                                        <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section> -->
     <!-- Client Section End -->
 @endsection

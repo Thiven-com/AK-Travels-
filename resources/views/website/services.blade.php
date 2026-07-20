@@ -487,7 +487,7 @@
                     <p class="map-content">
                         Need help planning your next trip?
                         <span class="color-light">Call:</span>
-                        <span>+880 9508 5363</span>
+                        <span>+91-9916170891</span>
                     </p>
 
                 </div>
@@ -498,81 +498,81 @@
 
     <!-- Testimonials Section Start -->
     <!-- <section class="testimonials-section pt-80 pb-80">
-                                                                                <div class="container">
-                                                                                    <div class="row">
-                                                                                        <div class="col-lg-5">
-                                                                                            <div class="testimonial-video mt-0">
-                                                                                                <h5>Latest Hotel Reviews</h5>
-                                                                                                <div class="sec-line mb-20"></div>
-                                                                                                <h3><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you need to
-                                                                                                    be on sure there isn’t anything embarras repeat predefined chunks as.</h3>
-                                                                                                <a class="btn-theme popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"><i
-                                                                                                        class="fa fa-play-circle"></i> Play Video</a>
-                                                                                                <div class="review-ratings">
-                                                                                                    <a class="ratings-star" href="#">
-                                                                                                        <i class="fa fa-star"></i>
-                                                                                                        <i class="fa fa-star"></i>
-                                                                                                        <i class="fa fa-star"></i>
-                                                                                                        <i class="fa fa-star-half-empty"></i>
-                                                                                                        <i class="fa fa-star-o"></i>
-                                                                                                    </a>
-                                                                                                    <a class="ratings-count" href="#">(3 Ratings)</a>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="col-lg-7">
-                                                                                            <div class="inner-title mt-25">
-                                                                                                <h2>Our Client's Say</h2>
-                                                                                                <div class="sec-line mb-40"></div>
-                                                                                            </div>
-                                                                                            <div class="testimonials-post testimonials_slide owl-carousel owl-theme owl-navst st-three">
-                                                                                                <div class="testimonials-item">
-                                                                                                    <div class="thumb">
-                                                                                                        <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
+                                                                                                    <div class="container">
+                                                                                                        <div class="row">
+                                                                                                            <div class="col-lg-5">
+                                                                                                                <div class="testimonial-video mt-0">
+                                                                                                                    <h5>Latest Hotel Reviews</h5>
+                                                                                                                    <div class="sec-line mb-20"></div>
+                                                                                                                    <h3><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you need to
+                                                                                                                        be on sure there isn’t anything embarras repeat predefined chunks as.</h3>
+                                                                                                                    <a class="btn-theme popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"><i
+                                                                                                                            class="fa fa-play-circle"></i> Play Video</a>
+                                                                                                                    <div class="review-ratings">
+                                                                                                                        <a class="ratings-star" href="#">
+                                                                                                                            <i class="fa fa-star"></i>
+                                                                                                                            <i class="fa fa-star"></i>
+                                                                                                                            <i class="fa fa-star"></i>
+                                                                                                                            <i class="fa fa-star-half-empty"></i>
+                                                                                                                            <i class="fa fa-star-o"></i>
+                                                                                                                        </a>
+                                                                                                                        <a class="ratings-count" href="#">(3 Ratings)</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                            <div class="col-lg-7">
+                                                                                                                <div class="inner-title mt-25">
+                                                                                                                    <h2>Our Client's Say</h2>
+                                                                                                                    <div class="sec-line mb-40"></div>
+                                                                                                                </div>
+                                                                                                                <div class="testimonials-post testimonials_slide owl-carousel owl-theme owl-navst st-three">
+                                                                                                                    <div class="testimonials-item">
+                                                                                                                        <div class="thumb">
+                                                                                                                            <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
+                                                                                                                        </div>
+                                                                                                                        <div class="content">
+                                                                                                                            <h5>Horem Due <small>- Traveler ut illum</small></h5>
+                                                                                                                            <ul>
+                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                                            </ul>
+                                                                                                                            <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
+                                                                                                                                need to be sure there isn’t anything embarrassing hidden in the middle often repeat
+                                                                                                                                predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                                                                            </p>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    <div class="testimonials-item">
+                                                                                                                        <div class="thumb">
+                                                                                                                            <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
+                                                                                                                        </div>
+                                                                                                                        <div class="content">
+                                                                                                                            <h5>Horem Due <small>- Traveler ut illum</small></h5>
+                                                                                                                            <ul>
+                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                                            </ul>
+                                                                                                                            <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
+                                                                                                                                need to be sure there isn’t anything embarrassing hidden in the middle often repeat
+                                                                                                                                predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                                                                            </p>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
                                                                                                     </div>
-                                                                                                    <div class="content">
-                                                                                                        <h5>Horem Due <small>- Traveler ut illum</small></h5>
-                                                                                                        <ul>
-                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                            <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                                            <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                                        </ul>
-                                                                                                        <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
-                                                                                                            need to be sure there isn’t anything embarrassing hidden in the middle often repeat
-                                                                                                            predefined chunks as necessary, making this the first true generator on the Internet.
-                                                                                                        </p>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                                <div class="testimonials-item">
-                                                                                                    <div class="thumb">
-                                                                                                        <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
-                                                                                                    </div>
-                                                                                                    <div class="content">
-                                                                                                        <h5>Horem Due <small>- Traveler ut illum</small></h5>
-                                                                                                        <ul>
-                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                            <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                            <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                                            <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                                        </ul>
-                                                                                                        <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
-                                                                                                            need to be sure there isn’t anything embarrassing hidden in the middle often repeat
-                                                                                                            predefined chunks as necessary, making this the first true generator on the Internet.
-                                                                                                        </p>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </section> -->
+                                                                                                </section> -->
     <!-- Testimonials Section End -->
 
     <!-- Client Section Start -->
-    <section class="client-section bg-f8 style-2 pb-70">
+    <!-- <section class="client-section bg-f8 style-2 pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -616,7 +616,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Client Section End -->
 
 
@@ -681,17 +681,18 @@
 
             <h2>Travel Booking</h2>
             <h2 id="serviceName" style="
-                                                            display:inline-block;
+                                                                                display:inline-block;
 
-                                                            color:#000;
-                                                            padding:8px;
-                                                            border-radius:6px;
-                                                            font-size:18px;
-                                                            font-weight:600;
-                                                            margin: 0 15px;
-                                                        ">
+                                                                                color:#000;
+                                                                                padding:8px;
+                                                                                border-radius:6px;
+                                                                                font-size:18px;
+                                                                                font-weight:600;
+                                                                                margin: 0 15px;
+                                                                            ">
                 Selected Service
             </h2>
+
 
             <input type="hidden" name="service" id="serviceInput">
 

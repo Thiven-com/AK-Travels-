@@ -27,7 +27,7 @@ class ServiceController extends Controller
             'contact' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'travel_date' => 'required|string|max:255',
-            'message' => 'required|string',
+            'message' => 'nullable|string',
         ]);
 
         Service::create([
