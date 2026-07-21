@@ -24,9 +24,9 @@
                         </div>
                         <!-- Package Box -->
                         <div class="package-box">
-                            <h1><span>45%</span> off</h1>
-                            <h4>on all package</h4>
-                            <a href="#">Book Now</a>
+                            <h3 style="color: #fff;"><span style="color: #df2b18;">Exclusive</span> Offers</h3><br>
+                            <h5 style="color: #ffcd22;">Available on All Services</h5><br><br>
+                            <a href="{{ route('services') }}">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -47,9 +47,9 @@
                             </h2>
                         </div><!-- Package Box -->
                         <div class="package-box slide-style-right">
-                            <h1><span>45%</span> off</h1>
-                            <h4>on all package</h4>
-                            <a href="#">Book Now</a>
+                            <h3 style="color: #fff;"><span style="color: #df2b18;">Exclusive</span> Offers</h3><br>
+                            <h5 style="color: #ffcd22;">Available on All Services</h5><br><br>
+                            <a href="{{ route('services') }}">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                             <a href="#">view more</a>
                         </div>
                         <div class="icon-box">
-                            <i class="fa fa-map-marker"></i>
+                            <i class="fa-solid fa-helicopter"></i>
                             <h5>Charter Services</h5>
                             <a href="#">view more</a>
                         </div>
@@ -624,161 +624,152 @@
                         <p>We offer comprehensive travel solutions tailored to your needs, ensuring every journey is
                             seamless, stress-free, and unforgettable. From flight bookings and visa assistance to customized
                             holiday packages and luxury travel, our dedicated team is committed to delivering exceptional
-                            service at every step. 🌍✈️ </p>
+                            service at every step.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-9" style=" margin-top: 50px;">
+                <div class="col-lg-12" style=" margin-top: 50px;">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="specialpackages_carousel owl-carousel owl-theme owl-navst">
                                 <div class="item">
                                     <div class="special-packages">
                                         <div class="thumb">
-                                            <img src="{{asset('website')}}/images/features/1.jpg" alt="">
-                                            <div class="offer-price"> Off 40%</div>
-                                            <div class="post-title-box">
-                                                <div class="price-box">
-                                                    <h5>✈️<span>₹</span>4000</h5>
-                                                    <h6>Starts From</h6>
-                                                </div>
-                                                <div class="title-box">
-                                                    <h4> Domestic & International</h4>
-                                                    <h3>Flight Bookings</h3>
-                                                </div>
+                                            <img src="{{asset('website')}}/images/domi.png" alt="">
+                                            <!-- <div class="offer-price"> Off 40%</div> -->
+                                            <div class="post-title-box" style="text-align: center;">
+
+                                                <h4> Domestic & International</h4>
+
+
+
                                             </div>
                                         </div>
                                         <div class="content">
                                             <!-- <ul class="info">
-                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                    </ul> -->
+                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                    </ul> -->
                                             <p>Explore destinations worldwide with reliable flight booking services,
                                                 offering the best fares, convenient schedules, and personalized travel
                                                 assistance.</p>
                                             <!-- <div class="small-hotel">
-                                                        <div class="text">
-                                                            <h6>Fly Anywhere</h6>
-                                                            <h5>Domestic & International Flight Bookings</h5>
-                                                            <ul>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                <li><a href="#">(3 Ratings)</a></li>
-                                                            </ul>
-                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
-                                                                Map</a>
-                                                        </div>
-                                                        <div class="thumb">
-                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
-                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
+                                                                        <div class="text">
+                                                                            <h6>Fly Anywhere</h6>
+                                                                            <h5>Domestic & International Flight Bookings</h5>
+                                                                            <ul>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                <li><a href="#">(3 Ratings)</a></li>
+                                                                            </ul>
+                                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
+                                                                                Map</a>
+                                                                        </div>
+                                                                        <div class="thumb">
+                                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
+                                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
+                                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="special-packages">
                                         <div class="thumb">
-                                            <img src="{{asset('website')}}/images/features/2.jpg" alt="">
-                                            <div class="offer-price"> Off 40%</div>
-                                            <div class="post-title-box">
-                                                <div class="price-box">
-                                                    <h5>🚁<span>₹</span>4000</h5>
-                                                    <h6>Starts From</h6>
-                                                </div>
-                                                <div class="title-box">
-                                                    <h4>Private Jets &</h4>
-                                                    <h3>Helicopter Services</h3>
-                                                </div>
+                                            <img src="{{asset('website')}}/images/jetp.jpg" alt="">
+                                            <!-- <div class="offer-price"> Off 40%</div> -->
+                                            <div class="post-title-box" style="text-align: center;">
+
+
+                                                <h4>Private Jets & Helicopter Services</h4>
+
+
                                             </div>
                                         </div>
                                         <div class="content">
                                             <!-- <ul class="info">
-                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                    </ul> -->
+                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                    </ul> -->
                                             <p>Enjoy personalized air travel with private jets and helicopter charters,
                                                 ensuring luxury, convenience, and efficient journeys to your desired
                                                 destinations.</p>
                                             <!-- <div class="small-hotel">
-                                                        <div class="text">
-                                                            <h6>Exclusive Air Charter</h6>
-                                                            <h5>Private Jets & Helicopter Services</h5>
-                                                            <ul>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                <li><a href="#">(3 Ratings)</a></li>
-                                                            </ul>
-                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
-                                                                Map</a>
-                                                        </div>
-                                                        <div class="thumb">
-                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
-                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
+                                                                        <div class="text">
+                                                                            <h6>Exclusive Air Charter</h6>
+                                                                            <h5>Private Jets & Helicopter Services</h5>
+                                                                            <ul>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                <li><a href="#">(3 Ratings)</a></li>
+                                                                            </ul>
+                                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
+                                                                                Map</a>
+                                                                        </div>
+                                                                        <div class="thumb">
+                                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
+                                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
+                                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="special-packages">
                                         <div class="thumb">
-                                            <img src="{{asset('website')}}/images/features/3.jpg" alt="">
-                                            <div class="offer-price"> Off 40%</div>
-                                            <div class="post-title-box">
-                                                <div class="price-box">
-                                                    <h5>🌍<span>₹</span>4000</h5>
-                                                    <h6>Starts From</h6>
-                                                </div>
-                                                <div class="title-box">
-                                                    <h4>Customized</h4>
-                                                    <h3>Holiday Packages</h3>
-                                                </div>
+                                            <img src="{{asset('website')}}/images/ctp.jpg" alt="">
+                                            <!-- <div class="offer-price"> Off 40%</div> -->
+                                            <div class="post-title-box" style="text-align: center;">
+
+
+                                                <h4>Customized & Holiday Packages</h4>
+
+
                                             </div>
                                         </div>
                                         <div class="content">
                                             <!-- <ul class="info">
-                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                    </ul> -->
+                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                    </ul> -->
                                             <p>From relaxing beach vacations to exciting adventure tours, enjoy customized
                                                 holiday packages crafted to suit your travel preferences and schedule.</p>
                                             <!-- <div class="small-hotel">
-                                                        <div class="text">
-                                                            <h6>Personalized Travel Plans</h6>
-                                                            <h5>Customized Holiday Packages</h5>
-                                                            <ul>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                <li><a href="#">(3 Ratings)</a></li>
-                                                            </ul>
-                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
-                                                                Map</a>
-                                                        </div>
-                                                        <div class="thumb">
-                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
-                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
-                                                        </div>
-                                                    </div>
-                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
+                                                                        <div class="text">
+                                                                            <h6>Personalized Travel Plans</h6>
+                                                                            <h5>Customized Holiday Packages</h5>
+                                                                            <ul>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                <li><a href="#">(3 Ratings)</a></li>
+                                                                            </ul>
+                                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
+                                                                                Map</a>
+                                                                        </div>
+                                                                        <div class="thumb">
+                                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
+                                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
+                                                                        </div>
+                                                                    </div>
+                                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
+                                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -786,11 +777,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="add-box thumb">
-                        <img src="{{asset('website')}}/images/features/ad-1.png" alt="">
-                    </div>
-                </div>
+                <!-- <div class="col-lg-3">
+                                <div class="add-box thumb">
+                                    <img src="{{asset('website')}}/images/features/ad-1.png" alt="">
+                                </div>
+                            </div> -->
             </div>
         </div>
     </section>
@@ -804,13 +795,13 @@
                     <div class="video-sec">
                         <h2>Trusted <span>Travel</span> Excellence </h2>
                         <p> Delivering exceptional travel experiences with personalized service, trusted partnerships, and a
-                            commitment to customer satisfaction every step of the way. 🌍✈️ </p>
+                            commitment to customer satisfaction every step of the way.</p>
                         <div class="video-content">
                             <img src="{{asset('website')}}/images/photos/video-img.png" alt="image">
                             <!-- <div class="overlay">
-                                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-youtube"><i
-                                                class="ficon fa fa-play-circle"></i></a>
-                                    </div> -->
+                                                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-youtube"><i
+                                                                class="ficon fa fa-play-circle"></i></a>
+                                                    </div> -->
                         </div>
                     </div>
                 </div>
@@ -884,7 +875,7 @@
                         <div class="item">
                             <div class="latest-hotel">
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/photos/hotel-1.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/roesc.webp" alt="">
                                 </div>
                                 <div class="content">
                                     <h4>Romantic Escapes</h4>
@@ -901,7 +892,7 @@
                                         featuring premium stays, unforgettable experiences, and personalized travel
                                         services..</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                            <h3>Off <span>-30%</span></h3> -->
+                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -909,7 +900,7 @@
                         <div class="item">
                             <div class="latest-hotel">
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/photos/hotel-2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/trad.webp" alt="" style="">
                                 </div>
                                 <div class="content">
                                     <h4>Travel Documentation</h4>
@@ -925,7 +916,7 @@
                                     <p>Get reliable visa assistance with end-to-end support, ensuring a smooth application
                                         process and hassle-free travel to your chosen destination..</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                        <h3>Off <span>-30%</span></h3> -->
+                                                        <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -933,7 +924,7 @@
                         <div class="item">
                             <div class="latest-hotel">
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/photos/hotel-3.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/cmdd.png" alt="">
                                 </div>
                                 <div class="content">
                                     <h4>Personalized Travel Plans</h4>
@@ -949,7 +940,209 @@
                                     <p>From relaxing beach vacations to exciting adventure tours, enjoy customized holiday
                                         packages crafted to suit your travel preferences and schedule..</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                    <h3>Off <span>-30%</span></h3> -->
+                                                    <h3>Off <span>-30%</span></h3> -->
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="latest-hotel">
+                                <div class="thumb">
+                                    <img src="{{asset('website')}}/images/domint (1).png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4>Fly Anywhere</h4>
+                                    <h5>Domestic & International</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+                                    </ul>
+                                    <p>Explore destinations worldwide with reliable flight booking services, offering the
+                                        best fares, convenient schedules, and personalized travel assistance.</p>
+                                    <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
+                                                    <h3>Off <span>-30%</span></h3> -->
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="latest-hotel">
+                                <div class="thumb">
+                                    <img src="{{asset('website')}}/images/privat_320x345.webp" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4>Exclusive Air Charter</h4>
+                                    <h5>Private Jets & Helicopter Services</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+                                    </ul>
+                                    <p>Enjoy personalized air travel with private jets and helicopter charters, ensuring
+                                        luxury, convenience, and efficient journeys to your desired destinations.</p>
+                                    <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
+                                                    <h3>Off <span>-30%</span></h3> -->
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="latest-hotel">
+                                <div class="thumb">
+                                    <img src="{{asset('website')}}/images/hotboo_320x345.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4>Comfortable Stays</h4>
+                                    <h5>Hotel Reservations</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+                                    </ul>
+                                    <p>Book quality hotels worldwide with the best rates, convenient locations, and
+                                        comfortable accommodations for a relaxing and memorable stay.</p>
+                                    <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
+                                                    <h3>Off <span>-30%</span></h3> -->
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="latest-hotel">
+                                <div class="thumb">
+                                    <img src="{{asset('website')}}/images/trans_320x345.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4>Seamless Ground Travel</h4>
+                                    <h5>Airport Transfers & Local Transportation</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+                                    </ul>
+                                    <p>Travel with ease using our airport pickup, drop-off, and local transportation
+                                        services, ensuring comfort, convenience, and on-time arrivals every time.</p>
+                                    <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
+                                                    <h3>Off <span>-30%</span></h3> -->
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="latest-hotel">
+                                <div class="thumb">
+                                    <img src="{{asset('website')}}/images/lea5ds_320x345.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4>Travel Together</h4>
+                                    <h5>Family & Group Tours</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+                                    </ul>
+                                    <p>Create lasting memories with family and friends through well-planned group tours,
+                                        exciting destinations, and personalized travel experiences for all ages.</p>
+                                    <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
+                                                    <h3>Off <span>-30%</span></h3> -->
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="latest-hotel">
+                                <div class="thumb">
+                                    <img src="{{asset('website')}}/images/busstra_320x345.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4>Business Travel Solutions</h4>
+                                    <h5>Corporate Travel Management</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+                                    </ul>
+                                    <p>Streamline your business travel with efficient booking, customized itineraries,
+                                        cost-effective solutions, and dedicated support for corporate travelers.</p>
+                                    <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
+                                                    <h3>Off <span>-30%</span></h3> -->
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="latest-hotel">
+                                <div class="thumb">
+                                    <img src="{{asset('website')}}/images/trains_320x345.jpeg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4>Secure Your Journey</h4>
+                                    <h5>Travel Insurance</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+                                    </ul>
+                                    <p>Travel with confidence by protecting your trip against unexpected events with
+                                        comprehensive travel insurance covering medical emergencies, delays, and
+                                        cancellations.</p>
+                                    <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
+                                                    <h3>Off <span>-30%</span></h3> -->
+                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="latest-hotel">
+                                <div class="thumb">
+                                    <img src="{{asset('website')}}/images/tailormade_320x345.jpg" alt="">
+                                </div>
+                                <div class="content">
+                                    <h4>Personalized Travel Planning</h4>
+                                    <h5>Tailor-Made Travel Experiences</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                        <!-- <li><a href="#">(3 Ratings)</a></li> -->
+                                    </ul>
+                                    <p>Discover journeys designed just for you with customized travel experiences,
+                                        personalized itineraries, and unforgettable adventures that match your interests and
+                                        budget.</p>
+                                    <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
+                                                    <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -1015,7 +1208,7 @@
                     <h4>Travel Gallery</h4>
                     <h2>Explore <span>Our</span> Travel Moments</h2>
                     <p>Discover unforgettable journeys, stunning destinations, and memorable moments. Every photo reflects
-                        our passion for creating exceptional travel experiences for our valued clients. 🌍✈️📸</p>
+                        our passion for creating exceptional travel experiences for our valued clients.</p>
                 </div>
             </div>
             <div class="row gallery-items">
@@ -1209,9 +1402,9 @@
                         personalized, and hassle-free travel solutions. Whether you're planning a business trip, a family
                         vacation, a honeymoon, or an international adventure, our expert team ensures every journey is
                         seamless from start to finish.</p>
-
-                    <a class="btn-theme" href="#">Download App</a>
-                    <a class="btn-theme btn-two" href="#">Subscribe Now</a>
+                    <!-- 
+                        <a class="btn-theme" href="#">Download App</a>
+                        <a class="btn-theme btn-two" href="#">Subscribe Now</a> -->
                 </div>
             </div>
         </div>
@@ -1580,49 +1773,49 @@
 
     <!-- Client Section Start -->
     <!-- <section class="client-section bg-f8 pb-70 pt-70">
-                                                                        <div class="container">
-                                                                            <div class="row">
-                                                                                <div class="col-md-12">
-                                                                                    <div id="client_carousel" class="owl-carousel">
-                                                                                        <div class="item">
-                                                                                            <div class="client-img-item">
-                                                                                                <img src="{{asset('website')}}/images/partner/1.png" alt="">
+                                                                                        <div class="container">
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-12">
+                                                                                                    <div id="client_carousel" class="owl-carousel">
+                                                                                                        <div class="item">
+                                                                                                            <div class="client-img-item">
+                                                                                                                <img src="{{asset('website')}}/images/partner/1.png" alt="">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="item">
+                                                                                                            <div class="client-img-item">
+                                                                                                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="item">
+                                                                                                            <div class="client-img-item">
+                                                                                                                <img src="{{asset('website')}}/images/partner/3.png" alt="">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="item">
+                                                                                                            <div class="client-img-item">
+                                                                                                                <img src="{{asset('website')}}/images/partner/4.png" alt="">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="item">
+                                                                                                            <div class="client-img-item">
+                                                                                                                <img src="{{asset('website')}}/images/partner/5.png" alt="">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="item">
+                                                                                                            <div class="client-img-item">
+                                                                                                                <img src="{{asset('website')}}/images/partner/6.png" alt="">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="item">
+                                                                                                            <div class="client-img-item">
+                                                                                                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="item">
-                                                                                            <div class="client-img-item">
-                                                                                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="item">
-                                                                                            <div class="client-img-item">
-                                                                                                <img src="{{asset('website')}}/images/partner/3.png" alt="">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="item">
-                                                                                            <div class="client-img-item">
-                                                                                                <img src="{{asset('website')}}/images/partner/4.png" alt="">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="item">
-                                                                                            <div class="client-img-item">
-                                                                                                <img src="{{asset('website')}}/images/partner/5.png" alt="">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="item">
-                                                                                            <div class="client-img-item">
-                                                                                                <img src="{{asset('website')}}/images/partner/6.png" alt="">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <div class="item">
-                                                                                            <div class="client-img-item">
-                                                                                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </section> -->
+                                                                                    </section> -->
     <!-- Client Section End -->
 @endsection

@@ -2,16 +2,14 @@
 @section('content')
 
     <!-- Inner Banner -->
-    <section class="inner-area parallax-bg"
-        data-background="{{ asset('website') }}/images/slider/3.jpg"
-        data-type="parallax"
-        data-speed="3">
+    <section class="inner-area parallax-bg" data-background="{{ asset('website') }}/images/slider/3.jpg"
+        data-type="parallax" data-speed="3">
         <div class="container">
             <div class="section-content">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2 style="color: #fff;">About Us</h2>
-                        <p>Home / About Us</p>
+                        <p>About <a href="{{ route('home') }}">Home</a></p>
                     </div>
                 </div>
             </div>
@@ -24,7 +22,8 @@
             <div class="row align-items-center">
 
                 <div class="col-lg-6 mb-4">
-                    <img src="{{ asset('website') }}/images/slider/1.jpg" class="img-fluid rounded shadow" alt="About AK Explore">
+                    <img src="{{ asset('website') }}/images/slider/1.jpg" class="img-fluid rounded shadow"
+                        alt="About AK Explore">
                 </div>
 
                 <div class="col-lg-6">
@@ -78,11 +77,11 @@
                     <div class="feature-item">
                         <div class="content">
                             <h3>Our Vision</h3>
-                            <p>
-                                To become one of India's most trusted and customer-centric travel brands,
-                                delivering world-class travel experiences through innovation,
-                                integrity, and outstanding service.
-                            </p>
+                            <ul class="mt-3">
+                                <li>Provide customized interior solutions for homes, offices, and commercial spaces.</li>
+                                <li>Deliver high-quality workmanship with premium materials and finishes.</li>
+                                <li>Complete every project on time with transparent communication.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h4>contact</h4>
-                        <p>Home <a href="#">contact</a></p>
+                        <p>Contact <a href="{{ route('home') }}">Home</a></p>
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                             </div>
                             <div class="content">
                                 <h5><a href="#">Email</a></h5>
-                                <p><a href="#">aktravels@solutions.com</a></p>
+                                <p><a href="#">info.aktravelsolutions.in</a></p>
                             </div>
                         </div>
                         <div class="service-item style-1 border-1px">
