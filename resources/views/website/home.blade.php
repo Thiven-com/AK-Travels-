@@ -1183,7 +1183,7 @@
                 </div>
                 <div class="col-xl-5 col-lg-8 col-md-10" style="margin-top:20px;">
                     <div class="map-area">
-                        <iframe src="https://www.google.com/maps?q=Bengaluru,Karnataka&output=embed" width="100%"
+                        <iframe src="https://www.google.com/maps?q=Coimbatore&output=embed" width="100%"
                             height="400" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>

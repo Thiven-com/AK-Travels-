@@ -95,7 +95,7 @@
                             </div>
                             <div class="content">
                                 <h5><a href="#">Email</a></h5>
-                                <p><a href="#">info.aktravelsolutions.in</a></p>
+                                <p><a href="mailto:info.aktravelsolutions.in">info.aktravelsolutions.in</a></p>
                             </div>
                         </div>
                         <div class="service-item style-1 border-1px">
@@ -106,7 +106,7 @@
                                 <h5><a href="#">Our Address</a></h5>
                                 <p>
                                     AK Explore and Experience LLP<br>
-                                    Bengaluru, Karnataka, India
+                                    Coimbatore, India
                                 </p>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
     <section class="p-0">
         <div class="map">
             <iframe
-                src="https://www.google.com/maps?q=Bengaluru,Karnataka&output=embed"
+                src="https://www.google.com/maps?q=Coimbatore&output=embed"
                 height="450" allowfullscreen=""></iframe>
         </div>
     </section>

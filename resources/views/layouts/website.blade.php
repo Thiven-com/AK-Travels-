@@ -287,10 +287,10 @@
                                 <ul class="footer-list footer-contact mb-10">
                                     <li><i class="pe-7s-call"></i> Phone:+91-9916170891 </li>
 
-                                    <li><i class="pe-7s-mail"></i> <a href="mailto:">Email: info.aktravelsolutions.in</a>
+                                    <li><i class="pe-7s-mail"></i> <a href="mailto:info.aktravelsolutions.in">Email: info.aktravelsolutions.in</a>
                                     </li>
 
-                                    <li><i class="pe-7s-location"></i> <b>Address:</b> Bengaluru,Karnataka.</li>
+                                    <li><i class="pe-7s-location"></i> <b>Address:</b> Coimbatore.</li>
                                 </ul>
                                 <!-- <div class="footer-item">
                                     <h6>News <span>letter</span></h6>
