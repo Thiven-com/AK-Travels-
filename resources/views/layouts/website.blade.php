@@ -48,7 +48,7 @@
             <div class="top-bar">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-7">
+                        <!-- <div class="col-md-7">
                             <div class="contact-info">
                                 <ul>
                                     <li>
@@ -57,7 +57,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-md-5">
                             <div class="social-icons">
                                 <ul>
@@ -287,10 +287,12 @@
                                 <ul class="footer-list footer-contact mb-10">
                                     <li><i class="pe-7s-call"></i> Phone:+91-9916170891 </li>
 
-                                    <li><i class="pe-7s-mail"></i> <a href="mailto:">Email: aktravels@solutions.com</a>
+                                    <li><i class="pe-7s-mail"></i> <a href="mailto:">Email: info.aktravelsolutions.in</a>
                                     </li>
+
+                                    <li><i class="pe-7s-location"></i> <b>Address:</b> Bengaluru,Karnataka.</li>
                                 </ul>
-                                <div class="footer-item">
+                                <!-- <div class="footer-item">
                                     <h6>News <span>letter</span></h6>
                                     <div class="input-group subscribe-style-two">
                                         <input type="email" class="form-control input-subscribe mb-0"
@@ -299,7 +301,7 @@
                                             <button class="btn btn-subscribe" type="button">Subscribe</button>
                                         </span>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
