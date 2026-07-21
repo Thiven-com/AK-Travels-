@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="description" content="" />
     <meta name="keywords"
-        content="creative, portfolio, agency, template, theme, designed, html5, html, css3, responsive, onepage" />
+        content="AK" />
     <meta name="author" content="Set Private Limited" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
