@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h4>contact</h4>
-                        <p>Contact <a href="{{ route('home') }}">Home</a></p>
+                        <p><a href="{{ route('home') }}">Home</a>  / Contact</p>
                     </div>
                 </div>
             </div>
@@ -25,23 +25,23 @@
                         <h3 class="title">Contact <span>us</span></h3>
                         @if(session('success'))
                             <div class="success-alert" style="background:#d4edda;
-                                                            color:#155724;
-                                                            border:1px solid #c3e6cb;
-                                                            padding:15px 20px;
-                                                            border-radius:8px;
-                                                            margin-bottom:20px;
-                                                            display:flex;
-                                                            justify-content:space-between;
-                                                            align-items:center;
-                                                            font-weight:600;">
+                                                                            color:#155724;
+                                                                            border:1px solid #c3e6cb;
+                                                                            padding:15px 20px;
+                                                                            border-radius:8px;
+                                                                            margin-bottom:20px;
+                                                                            display:flex;
+                                                                            justify-content:space-between;
+                                                                            align-items:center;
+                                                                            font-weight:600;">
 
                                 <span>✅ {{ session('success') }}</span>
 
                                 <button type="button" onclick="this.parentElement.remove();" style="background:none;
-                                                                   border:none;
-                                                                   font-size:22px;
-                                                                   color:#155724;
-                                                                   cursor:pointer;">
+                                                                                   border:none;
+                                                                                   font-size:22px;
+                                                                                   color:#155724;
+                                                                                   cursor:pointer;">
                                     &times;
                                 </button>
                             </div>
@@ -85,7 +85,10 @@
                             </div>
                             <div class="content">
                                 <h5><a href="#">Contact Info</a></h5>
-                                <p> +91-9916170891</p>
+
+                                <p><a href="tel:+91 9916170891">+91 9916170891</a><br>
+                                    <a href="tel:+91 8668135528">+91 8668135528</a>
+                                </p>
                             </div>
                         </div>
 
@@ -95,7 +98,9 @@
                             </div>
                             <div class="content">
                                 <h5><a href="#">Email</a></h5>
-                                <p><a href="mailto:info.aktravelsolutions.in">info.aktravelsolutions.in</a></p>
+                                <p><a
+                                        href="mailto:info.akexploreandexperience@gmail.com">info.akexploreandexperience@gmail.com</a>
+                                </p>
                             </div>
                         </div>
                         <div class="service-item style-1 border-1px">
@@ -105,8 +110,11 @@
                             <div class="content">
                                 <h5><a href="#">Our Address</a></h5>
                                 <p>
-                                    AK Explore and Experience LLP<br>
-                                    Coimbatore, India
+                                    
+                                    <a href="https://maps.google.com/?q=SIDCO,+Coimbatore,+641021" target="_blank"><b>AK
+                                            Explore and Experience LLP</b><br>
+                                        SIDCO, Coimbatore – 641021,India
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -119,58 +127,56 @@
 
     <section class="p-0">
         <div class="map">
-            <iframe
-                src="https://www.google.com/maps?q=Coimbatore&output=embed"
-                height="450" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps?q=Coimbatore&output=embed" height="450" allowfullscreen=""></iframe>
         </div>
     </section>
 
     <!-- Client Section Start -->
     <!-- <section class="client-section bg-f8 style-2 pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="client_carousel" class="owl-carousel">
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{ asset('website') }}/images/partner/1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{ asset('website') }}/images/partner/2.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{ asset('website') }}/images/partner/3.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{ asset('website') }}/images/partner/4.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{ asset('website') }}/images/partner/5.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{ asset('website') }}/images/partner/6.png" alt="">
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="client-img-item">
-                                <img src="{{ asset('website') }}/images/partner/2.png" alt="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="client_carousel" class="owl-carousel">
+                                <div class="item">
+                                    <div class="client-img-item">
+                                        <img src="{{ asset('website') }}/images/partner/1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="client-img-item">
+                                        <img src="{{ asset('website') }}/images/partner/2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="client-img-item">
+                                        <img src="{{ asset('website') }}/images/partner/3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="client-img-item">
+                                        <img src="{{ asset('website') }}/images/partner/4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="client-img-item">
+                                        <img src="{{ asset('website') }}/images/partner/5.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="client-img-item">
+                                        <img src="{{ asset('website') }}/images/partner/6.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="client-img-item">
+                                        <img src="{{ asset('website') }}/images/partner/2.png" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section> -->
+            </section> -->
     <!-- Client Section End -->
     <script>
         setTimeout(function () {

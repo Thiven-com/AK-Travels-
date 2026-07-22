@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2 style="color: #fff;">About Us</h2>
-                        <p>About <a href="{{ route('home') }}">Home</a></p>
+                        <p><a href="{{ route('home') }}">Home</a>  / About </p>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
 
             <div class="row mt-5">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="padding-bottom: 10px;">
                     <div class="feature-item">
                         <div class="content">
                             <h3>Our Vision</h3>
@@ -86,7 +86,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6" style="padding-bottom: 10px;">
                     <div class="feature-item">
                         <div class="content">
                             <h3>Our Mission</h3>
@@ -194,28 +194,28 @@
 
             <div class="row mt-5">
 
-                <div class="col-md-3">
+                <div class="col-md-3" style="padding-bottom:10px;">
                     <div class="feature-item text-center">
                         <h3>Trust</h3>
                         <p>Building long-term relationships through honesty and reliability.</p>
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3"style="padding-bottom:10px;">
                     <div class="feature-item text-center">
                         <h3>Excellence</h3>
                         <p>Delivering exceptional quality in every journey.</p>
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3"style="padding-bottom:10px;">
                     <div class="feature-item text-center">
                         <h3>Integrity</h3>
                         <p>Maintaining transparency and professionalism at every step.</p>
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3"style="padding-bottom:10px;">
                     <div class="feature-item text-center">
                         <h3>Customer First</h3>
                         <p>Every itinerary is designed around our clients' needs and expectations.</p>
@@ -237,7 +237,7 @@
                     <div class="inner-title">
                         <h4>Our Promise</h4>
                         <h2>Travel With <span>Confidence</span></h2>
-                        <div class="sec-line"></div>
+                        <!-- <div class="sec-line"></div> -->
                     </div>
 
                     <p class="mt-4">

@@ -6,8 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="description" content="" />
-    <meta name="keywords"
-        content="AK" />
+    <meta name="keywords" content="AK" />
     <meta name="author" content="Set Private Limited" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -211,7 +210,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-item footer-widget-one">
                                 <img class="footer-logo mb-25" src="{{asset('website')}}/images/logo1.png" alt="">
-                                <p>AK Travels – Explore & Experience is a premium travel brand dedicated to making every
+                                <p style="color: #fff;">AK Travels – Explore & Experience is a premium travel brand dedicated to making every
                                     journey memorable.</p>
                                 <hr>
                                 <h6>Follow<span> Us</span></h6>
@@ -265,7 +264,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-item">
                                 <div class="footer-title">
-                                    <h4>Usefull <span>Links</span></h4>
+                                    <h4>Useful <span>Links</span></h4>
                                     <div class="border-style-3"></div>
                                 </div>
                                 <ul class="footer-list">
@@ -285,12 +284,26 @@
                                     <div class="border-style-3"></div>
                                 </div>
                                 <ul class="footer-list footer-contact mb-10">
-                                    <li><i class="pe-7s-call"></i> Phone:+91-9916170891 </li>
+                                    <li>
 
-                                    <li><i class="pe-7s-mail"></i> <a href="mailto:info.aktravelsolutions.in">Email: info.aktravelsolutions.in</a>
+                                        <a href="tel:+91 9916170891">+91 9916170891</a><br>
+                                        <a href="tel:+91 8668135528">+91 8668135528</a>
+
                                     </li>
 
-                                    <li><i class="pe-7s-location"></i> <b>Address:</b> Coimbatore.</li>
+                                    <li>
+
+                                        <a href="mailto:info.akexploreandexperience@gmail.com">
+                                            info.akexploreandexperience@gmail.com
+                                        </a>
+                                    </li>
+
+                                    <li>
+
+                                        <a href="https://maps.google.com/?q=SIDCO,+Coimbatore,+641021" target="_blank">
+                                            SIDCO, Coimbatore – 641021,India
+                                        </a>
+                                    </li>
                                 </ul>
                                 <!-- <div class="footer-item">
                                     <h6>News <span>letter</span></h6>
