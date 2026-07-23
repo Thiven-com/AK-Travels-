@@ -45,7 +45,7 @@ class AuthController extends Controller
     public function dashboard()
     {
         $contactCount = Contact::count();
-        $serviceCount = Service::count();
+        $serviceCount = ServiceEnquiry::count();
         return view('admin.auth.dashboard', compact('contactCount', 'serviceCount'));
     }
 

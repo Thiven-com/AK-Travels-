@@ -93,8 +93,7 @@ Route::post('reset-password-otp', [AuthController::class, 'resetPassword'])
     ->name('admin.password.resetOtp');
 
 
-Route::post('/contact-store', [ContactController::class, 'store'])
-    ->name('contact.store');
+
 
 Route::delete('/contacts/{id}', [ContactController::class, 'destroy'])
     ->name('contacts.destroy');

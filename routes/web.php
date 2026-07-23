@@ -13,11 +13,11 @@ Route::get('about', [PageControllers::class, 'about'])->name('about');
 Route::get('contact', [PageControllers::class, 'contact'])->name('contact');
 
 
-Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/contact', [PageControllers::class, 'submitContactEnquiry'])->name('contact.store');
 
 
 
-Route::post('/services', [ServiceController::class, 'store'])->name('services.store');
+Route::post('/service_enquiries', [PageControllers::class, 'submitServiceEnquiry'])->name('service_enquiries.store');
 
 
 

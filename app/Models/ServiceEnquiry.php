@@ -4,9 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Service extends Model
+class ServiceEnquiry extends Model
 {
-    protected $fillable = [
+     protected $fillable = [
         "full_name",
         
         "dob",
