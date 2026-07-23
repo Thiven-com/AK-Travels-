@@ -45,6 +45,7 @@ class PageControllers extends Controller
             'email' => 'required|email|max:255',
             'travel_date' => 'required|string|max:255',
             'message' => 'nullable|string',
+            'service' => 'required|string',
         ]);
 
         ServiceEnquiry::create([
@@ -52,6 +53,7 @@ class PageControllers extends Controller
 
             'dob' => $request->dob,
             'age' => $request->age,
+            'service' => $request->service,
             'gender' => $request->gender,
             'contact' => $request->contact,
             'email' => $request->email,

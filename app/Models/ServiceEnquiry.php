@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class ServiceEnquiry extends Model
 {
-     protected $fillable = [
+    protected $fillable = [
         "full_name",
-        
+        "service",
         "dob",
         "age",
         "gender",
