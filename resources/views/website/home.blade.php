@@ -636,7 +636,7 @@
                                 <div class="item">
                                     <div class="special-packages">
                                         <div class="thumb">
-                                            <img src="{{asset('website')}}/images/domi.png" alt="">
+                                            <img src="{{asset('website')}}/images/flight3.png" alt="">
                                             <!-- <div class="offer-price"> Off 40%</div> -->
                                             <div class="post-title-box" style="text-align: center;">
 
@@ -683,7 +683,7 @@
                                 <div class="item">
                                     <div class="special-packages">
                                         <div class="thumb">
-                                            <img src="{{asset('website')}}/images/jetp.jpg" alt="">
+                                            <img src="{{asset('website')}}/images/jet3.png" alt="">
                                             <!-- <div class="offer-price"> Off 40%</div> -->
                                             <div class="post-title-box" style="text-align: center;">
 
@@ -730,7 +730,7 @@
                                 <div class="item">
                                     <div class="special-packages">
                                         <div class="thumb">
-                                            <img src="{{asset('website')}}/images/ctp.jpg" alt="">
+                                            <img src="{{asset('website')}}/images/holid4.png" alt="">
                                             <!-- <div class="offer-price"> Off 40%</div> -->
                                             <div class="post-title-box" style="text-align: center;">
 

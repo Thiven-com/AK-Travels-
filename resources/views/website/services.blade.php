@@ -65,8 +65,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/dom1 (2).png" alt="">
-                                    <img src="{{asset('website')}}/images/dom2.webp" alt="">
+                                    <img src="{{asset('website')}}/images/flight1.png" alt="">
+                                    <img src="{{asset('website')}}/images/family2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -103,8 +103,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/hel.png" alt="">
-                                    <img src="{{asset('website')}}/images/jet.webp" alt="">
+                                    <img src="{{asset('website')}}/images/jet1.png" alt="">
+                                    <img src="{{asset('website')}}/images/jet2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -140,8 +140,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/hol1.jpg" alt="">
-                                    <img src="{{asset('website')}}/images/hol2.jpg" alt="">
+                                    <img src="{{asset('website')}}/images/holid1.png" alt="">
+                                    <img src="{{asset('website')}}/images/holid2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -179,8 +179,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/hot2.png" alt="">
-                                    <img src="{{asset('website')}}/images/hot3.webp" alt="">
+                                    <img src="{{asset('website')}}/images/hotel1.png" alt="">
+                                    <img src="{{asset('website')}}/images/hotel2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -219,7 +219,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/B2B.png" alt="">
+                                    <img src="{{asset('website')}}/images/visa1.png" alt="">
                                     <img src="{{asset('website')}}/images/visa2.png" alt="">
                                 </div>
                             </div>
@@ -259,8 +259,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/air.png" alt="">
-                                    <img src="{{asset('website')}}/images/air1.png" alt="">
+                                    <img src="{{asset('website')}}/images/trans1.png" alt="">
+                                    <img src="{{asset('website')}}/images/trans2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -300,8 +300,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/rom1_with_bgc.png" alt="">
-                                    <img src="{{asset('website')}}/images/rom_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/honey1.png" alt="">
+                                    <img src="{{asset('website')}}/images/honey2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -339,8 +339,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/fam1_with_bgc.png" alt="">
-                                    <img src="{{asset('website')}}/images/fam_312x205.jpeg" alt="">
+                                    <img src="{{asset('website')}}/images/family1.png" alt="">
+                                    <img src="{{asset('website')}}/images/family2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -379,8 +379,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/cor1_with_bgc.png" alt="">
-                                    <img src="{{asset('website')}}/images/cor_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/corp1.png" alt="">
+                                    <img src="{{asset('website')}}/images/corp2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -420,8 +420,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/ins_with_bgc.png" alt="">
-                                    <img src="{{asset('website')}}/images/ins1_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/insu1.png" alt="">
+                                    <img src="{{asset('website')}}/images/insu2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
@@ -462,8 +462,8 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/tia_with_bgc.png" alt="">
-                                    <img src="{{asset('website')}}/images/tia1_with_bgc.png" alt="">
+                                    <img src="{{asset('website')}}/images/tailo1.png" alt="">
+                                    <img src="{{asset('website')}}/images/tailo2.png" alt="">
                                 </div>
                             </div>
                             <!-- <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5> -->
