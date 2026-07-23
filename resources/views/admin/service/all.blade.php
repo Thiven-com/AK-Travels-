@@ -185,6 +185,7 @@
                         <thead>
                             <tr>
                                 <th>S.No</th>
+                                <th>Service</th>
                                 <th>Full Name</th>
                                 <th>Date Of Birth</th>
                                 <th>Age</th>
@@ -203,6 +204,7 @@
                                 <tr>
 
                                     <td>{{ $loop->iteration }}</td>
+                                    <td>{{ $service->service }}</td>
 
                                     <td>{{ $service->full_name }}</td>
 
