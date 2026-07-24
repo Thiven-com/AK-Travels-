@@ -32,6 +32,9 @@
     <!-- Favicon -->
     <link href="{{asset('website')}}/images/fav.png" rel="shortcut icon" type="image/png">
 
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -116,7 +119,7 @@
                                     <!-- mega-menu start -->
                                     <li class="nav-item dropdown">
                                         <a href="{{ route('about') }}" class="nav-link" aria-haspopup="true"
-                                            aria-expanded="false">About</a>
+                                            aria-expanded="false">About Us</a>
                                     </li>
 
                                     <!-- mega-menu end -->
@@ -210,7 +213,8 @@
                         <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-item footer-widget-one">
                                 <img class="footer-logo mb-25" src="{{asset('website')}}/images/logo1.png" alt="">
-                                <p style="color: #fff;">AK Travels – Explore & Experience is a premium travel brand dedicated to making every
+                                <p style="color: #fff;">AK Travels – Explore & Experience is a premium travel brand
+                                    dedicated to making every
                                     journey memorable.</p>
                                 <hr>
                                 <h6>Follow<span> Us</span></h6>

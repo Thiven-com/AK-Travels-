@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2 style="color: #fff;">About Us</h2>
-                        <p><a href="{{ route('home') }}">Home</a>  / About </p>
+                        <p><a href="{{ route('home') }}">Home</a> / About Us </p>
                     </div>
                 </div>
             </div>
@@ -49,9 +49,19 @@
                         memories, discovering new cultures, and experiencing the world with confidence.
                     </p>
 
-                    <blockquote class="mt-4 p-3 bg-light border-left">
-                        <h5><strong>Our Motto</strong></h5>
-                        <h4 class="text-primary">"Don't Just Travel. Experience."</h4>
+                    <blockquote
+                        style="margin-top:30px; padding:30px; background:#ffffff; border-left:6px solid #f89a1c; border-radius:12px; box-shadow:0 8px 20px rgba(47,96,115,0.12);">
+
+                        <h5
+                            style="margin:0 0 12px 0; color:#2f6073; font-size:18px; font-weight:700; text-transform:uppercase; letter-spacing:1px;">
+                            <strong>Our Motto</strong>
+                        </h5>
+
+                        <h4 style="margin:0; color:#252525; font-size:34px; font-weight:800; line-height:1.4;">
+                            Don't Just Travel.
+                            <span style="color:#f89a1c;">Experience.</span>
+                        </h4>
+
                     </blockquote>
 
                 </div>
@@ -77,10 +87,16 @@
                     <div class="feature-item">
                         <div class="content">
                             <h3>Our Vision</h3>
+
                             <ul class="mt-3">
-                                <li>Provide customized interior solutions for homes, offices, and commercial spaces.</li>
-                                <li>Deliver high-quality workmanship with premium materials and finishes.</li>
-                                <li>Complete every project on time with transparent communication.</li>
+                                <li>Empowering travelers to explore the world with confidence, comfort, and unforgettable
+                                    experiences.</li>
+
+                                <li>Delivering innovative travel solutions that combine quality, affordability, and
+                                    personalized service.</li>
+
+                                <li>Building lasting relationships by making every journey safe, seamless, and truly
+                                    memorable.</li>
                             </ul>
                         </div>
                     </div>
@@ -92,10 +108,11 @@
                             <h3>Our Mission</h3>
 
                             <ul class="mt-3">
-                                <li>Deliver personalized travel solutions tailored to every client.</li>
-                                <li>Build lasting relationships through trust and transparency.</li>
-                                <li>Ensure hassle-free travel with end-to-end assistance.</li>
-                                <li>Create memorable journeys that exceed customer expectations.</li>
+                                <li>Deliver personalized travel experiences with exceptional service and attention to
+                                    detail.</li>
+                                <li>Provide reliable travel solutions through expert planning and seamless support.</li>
+                                <li>Create memorable journeys that inspire trust, satisfaction, and lasting relationships.
+                                </li>
                             </ul>
 
                         </div>
@@ -201,21 +218,21 @@
                     </div>
                 </div>
 
-                <div class="col-md-3"style="padding-bottom:10px;">
+                <div class="col-md-3" style="padding-bottom:10px;">
                     <div class="feature-item text-center">
                         <h3>Excellence</h3>
                         <p>Delivering exceptional quality in every journey.</p>
                     </div>
                 </div>
 
-                <div class="col-md-3"style="padding-bottom:10px;">
+                <div class="col-md-3" style="padding-bottom:10px;">
                     <div class="feature-item text-center">
                         <h3>Integrity</h3>
                         <p>Maintaining transparency and professionalism at every step.</p>
                     </div>
                 </div>
 
-                <div class="col-md-3"style="padding-bottom:10px;">
+                <div class="col-md-3" style="padding-bottom:10px;">
                     <div class="feature-item text-center">
                         <h3>Customer First</h3>
                         <p>Every itinerary is designed around our clients' needs and expectations.</p>

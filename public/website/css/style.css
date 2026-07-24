@@ -1503,7 +1503,6 @@ a.dropdown-item.active {
 .slide-text.st-two h1:before {
     position: absolute;
     content: "";
-    background-color: #ffcd22;
     width: 365px;
     height: 20px;
     bottom: 3px;
@@ -4389,13 +4388,13 @@ Global Css Style
     color: #656161;
     cursor: pointer;
     float: left;
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif; */
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 20px;
     padding-left: 45px;
     position: relative;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     width: 50%;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -4409,7 +4408,7 @@ Global Css Style
 }
 
 .global-area ul li:before {
-    border: 5px solid #ffcd22;
+    /* border: 5px solid #ffcd22; */
     border-radius: 50%;
     content: "";
     height: 30px;
@@ -4418,7 +4417,7 @@ Global Css Style
     width: 30px;
 }
 
-.global-area ul li:nth-child(2):before {
+/* .global-area ul li:nth-child(2):before {
     border: 5px solid #255669;
 }
 
@@ -4428,7 +4427,7 @@ Global Css Style
 
 .global-area ul li:nth-child(4):before {
     border: 5px solid #df2b18;
-}
+} */
 
 .map-area {
     background-color: #255669;
@@ -4441,7 +4440,7 @@ Global Css Style
 
 .map-content {
     color: #1a1411;
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif; */
     font-size: 15px;
     letter-spacing: 0.4px;
     text-align: center;

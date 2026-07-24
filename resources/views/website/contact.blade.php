@@ -2,7 +2,7 @@
 @section('content')
 
     <!-- Inner Section Start -->
-    <section class="inner-area parallax-bg" data-background="{{ asset('website') }}/images/bg/px-1.jpg" data-type="parallax"
+    <!-- <section class="inner-area parallax-bg" data-background="{{ asset('website') }}/images/bg/px-1.jpg" data-type="parallax"
         data-speed="3">
         <div class="container">
             <div class="section-content">
@@ -10,6 +10,19 @@
                     <div class="col-12">
                         <h4>contact</h4>
                         <p><a href="{{ route('home') }}">Home</a>  / Contact</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="inner-area parallax-bg" data-background="{{ asset('website') }}/images/slider/3.jpg"
+        data-type="parallax" data-speed="3">
+        <div class="container">
+            <div class="section-content">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 style="color: #fff;">Contact</h2>
+                         <p><a href="{{ route('home') }}">Home</a>  / Contact</p>
                     </div>
                 </div>
             </div>

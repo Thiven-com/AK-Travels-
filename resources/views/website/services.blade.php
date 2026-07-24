@@ -1,14 +1,27 @@
 @extends('layouts.website')
 @section('content')
     <!-- Inner Section Start -->
-    <section class="inner-area parallax-bg" data-background="{{asset('website')}}/images/bg/px-1.jpg" data-type="parallax"
-        data-speed="3">
+    <!-- <section class="inner-area parallax-bg" data-background="{{asset('website')}}/images/bg/px-1.jpg" data-type="parallax"
+            data-speed="3">
+            <div class="container">
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Holiday</h4>
+                            <p><a href="{{ route('home') }}">Home</a> / Services </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    <section class="inner-area parallax-bg" data-background="{{ asset('website') }}/images/slider/3.jpg"
+        data-type="parallax" data-speed="3">
         <div class="container">
             <div class="section-content">
                 <div class="row">
-                    <div class="col-12">
-                        <h4>Holiday</h4>
-                        <p><a href="{{ route('home') }}">Home</a> / Services </p>
+                    <div class="col-12 text-center">
+                        <h2 style="color: #fff;">Holiday</h2>
+                        <p><a href="{{ route('home') }}">Home</a> / Services</p>
                     </div>
                 </div>
             </div>
@@ -16,24 +29,26 @@
     </section>
     <!-- Inner Section End -->
     @if(session('success'))
-        <div class="success-alert" style="background:#d4edda;
-                                                                                            color:#155724;
-                                                                                            border:1px solid #c3e6cb;
-                                                                                            padding:15px 20px;
-                                                                                            border-radius:8px;
-                                                                                            margin-bottom:20px;
-                                                                                            display:flex;
-                                                                                            justify-content:space-between;
-                                                                                            align-items:center;
-                                                                                            font-weight:600;">
+        <div class="success-alert"
+            style="background:#d4edda;
+                                                                                                                                    color:#155724;
+                                                                                                                                    border:1px solid #c3e6cb;
+                                                                                                                                    padding:15px 20px;
+                                                                                                                                    border-radius:8px;
+                                                                                                                                    margin-bottom:20px;
+                                                                                                                                    display:flex;
+                                                                                                                                    justify-content:space-between;
+                                                                                                                                    align-items:center;
+                                                                                                                                    font-weight:600;">
 
             <span>✅ {{ session('success') }}</span>
 
-            <button type="button" onclick="this.parentElement.remove();" style="background:none;
-                                                                                                   border:none;
-                                                                                                   font-size:22px;
-                                                                                                   color:#155724;
-                                                                                                   cursor:pointer;">
+            <button type="button" onclick="this.parentElement.remove();"
+                style="background:none;
+                                                                                                                                           border:none;
+                                                                                                                                           font-size:22px;
+                                                                                                                                           color:#155724;
+                                                                                                                                           cursor:pointer;">
                 &times;
             </button>
         </div>
@@ -47,24 +62,24 @@
                         <div class="thumb">
                             <!-- <img src="{{asset('website')}}/images/serviceimg.png" alt=""> -->
                             <!-- <div class="offer-price"> Off 40%</div>
-                                                                                <div class="post-title-box">
-                                                                                    <div class="price-box">
-                                                                                        <h5><span>₹</span>400</h5>
-                                                                                        <h6>Starts From</h6>
-                                                                                    </div>
-                                                                                    <div class="title-box">
-                                                                                        <h4>Redilova Tour Place</h4>
-                                                                                        <h3>peelamedu, cbe, india</h3>
-                                                                                    </div>
-                                                                                </div> -->
+                                                                                                    <div class="post-title-box">
+                                                                                                        <div class="price-box">
+                                                                                                            <h5><span>₹</span>400</h5>
+                                                                                                            <h6>Starts From</h6>
+                                                                                                        </div>
+                                                                                                        <div class="title-box">
+                                                                                                            <h4>Redilova Tour Place</h4>
+                                                                                                            <h3>peelamedu, cbe, india</h3>
+                                                                                                        </div>
+                                                                                                    </div> -->
                         </div>
                         {{-- services --}}
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                                                            </ul> -->
+                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                                                </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -98,10 +113,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                                                        </ul> -->
+                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                                            </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -136,10 +151,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                                                    </ul> -->
+                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                                        </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -175,10 +190,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                                                </ul> -->
+                                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                                    </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -215,10 +230,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                                            </ul> -->
+                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                                </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -256,10 +271,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                                        </ul> -->
+                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                            </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -295,10 +310,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                                    </ul> -->
+                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                        </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -336,10 +351,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                                </ul> -->
+                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                    </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -375,10 +390,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                            </ul> -->
+                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                                </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -415,10 +430,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                        </ul> -->
+                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                            </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -457,10 +472,10 @@
 
                         <div class="content">
                             <!-- <ul class="info">
-                                                                                                                                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                                                                                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                                                                                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                                                                                                                                    </ul> -->
+                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                                                                                                                            <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                                                                                                                                        </ul> -->
 
                             <div class="small-hotel">
                                 <div class="text">
@@ -519,13 +534,39 @@
                             Our dedicated team ensures every journey is comfortable, hassle-free, and
                             tailored to your preferences.
                         </p>
-                        <h4>Our Travel Services Include:</h4>
+                        <h4
+                            style="font-family:'Cinzel', serif; font-size:28px; font-weight:700; color:#2F6073; margin-bottom:25px;">
+                            Our Travel Services Include:
+                        </h4>
 
-                        <ul class="ps-3">
-                            <li class="mb-2">Domestic and International Tour Packages</li>
-                            <li class="mb-2">Flight, Hotel, and Transportation Bookings</li>
-                            <li class="mb-2">Visa Assistance and Travel Insurance</li>
-                            <li class="mb-2">24/7 Customer Support Throughout Your Journey</li>
+                        <ul style="list-style:none; padding:0; margin:0; font-family:'Poppins', sans-serif;">
+
+                            <li
+                                style="display:flex; align-items:flex-start; gap:15px; margin-bottom:18px; font-size:17px; color:#555; line-height:1.8;">
+                                <i class="fa-solid fa-earth-asia"
+                                    style="color:#F89A1C; font-size:20px; margin-top:5px;"></i>
+                                <span>Domestic and International Tour Packages</span>
+                            </li>
+
+                            <li
+                                style="display:flex; align-items:flex-start; gap:15px; margin-bottom:18px; font-size:17px; color:#555; line-height:1.8;">
+                                <i class="fa-solid fa-plane-departure"
+                                    style="color:#2F6073; font-size:20px; margin-top:5px;"></i>
+                                <span>Flight, Hotel, and Transportation Bookings</span>
+                            </li>
+
+                            <li
+                                style="display:flex; align-items:flex-start; gap:15px; margin-bottom:18px; font-size:17px; color:#555; line-height:1.8;">
+                                <i class="fa-solid fa-passport" style="color:#F89A1C; font-size:20px; margin-top:5px;"></i>
+                                <span>Visa Assistance and Travel Insurance</span>
+                            </li>
+
+                            <li
+                                style="display:flex; align-items:flex-start; gap:15px; margin-bottom:0; font-size:17px; color:#555; line-height:1.8;">
+                                <i class="fa-solid fa-headset" style="color:#2F6073; font-size:20px; margin-top:5px;"></i>
+                                <span>24/7 Customer Support Throughout Your Journey</span>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
@@ -550,125 +591,125 @@
 
     <!-- Testimonials Section Start -->
     <!-- <section class="testimonials-section pt-80 pb-80">
-                                                                                                                                                                                                                                                                                                    <div class="container">
-                                                                                                                                                                                                                                                                                                        <div class="row">
-                                                                                                                                                                                                                                                                                                            <div class="col-lg-5">
-                                                                                                                                                                                                                                                                                                                <div class="testimonial-video mt-0">
-                                                                                                                                                                                                                                                                                                                    <h5>Latest Hotel Reviews</h5>
-                                                                                                                                                                                                                                                                                                                    <div class="sec-line mb-20"></div>
-                                                                                                                                                                                                                                                                                                                    <h3><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you need to
-                                                                                                                                                                                                                                                                                                                        be on sure there isn’t anything embarras repeat predefined chunks as.</h3>
-                                                                                                                                                                                                                                                                                                                    <a class="btn-theme popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"><i
-                                                                                                                                                                                                                                                                                                                            class="fa fa-play-circle"></i> Play Video</a>
-                                                                                                                                                                                                                                                                                                                    <div class="review-ratings">
-                                                                                                                                                                                                                                                                                                                        <a class="ratings-star" href="#">
-                                                                                                                                                                                                                                                                                                                            <i class="fa fa-star"></i>
-                                                                                                                                                                                                                                                                                                                            <i class="fa fa-star"></i>
-                                                                                                                                                                                                                                                                                                                            <i class="fa fa-star"></i>
-                                                                                                                                                                                                                                                                                                                            <i class="fa fa-star-half-empty"></i>
-                                                                                                                                                                                                                                                                                                                            <i class="fa fa-star-o"></i>
-                                                                                                                                                                                                                                                                                                                        </a>
-                                                                                                                                                                                                                                                                                                                        <a class="ratings-count" href="#">(3 Ratings)</a>
-                                                                                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                            <div class="col-lg-7">
-                                                                                                                                                                                                                                                                                                                <div class="inner-title mt-25">
-                                                                                                                                                                                                                                                                                                                    <h2>Our Client's Say</h2>
-                                                                                                                                                                                                                                                                                                                    <div class="sec-line mb-40"></div>
-                                                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                                <div class="testimonials-post testimonials_slide owl-carousel owl-theme owl-navst st-three">
-                                                                                                                                                                                                                                                                                                                    <div class="testimonials-item">
-                                                                                                                                                                                                                                                                                                                        <div class="thumb">
-                                                                                                                                                                                                                                                                                                                            <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
+                                                                                                                                                                                                                                                                                                                        <div class="container">
+                                                                                                                                                                                                                                                                                                                            <div class="row">
+                                                                                                                                                                                                                                                                                                                                <div class="col-lg-5">
+                                                                                                                                                                                                                                                                                                                                    <div class="testimonial-video mt-0">
+                                                                                                                                                                                                                                                                                                                                        <h5>Latest Hotel Reviews</h5>
+                                                                                                                                                                                                                                                                                                                                        <div class="sec-line mb-20"></div>
+                                                                                                                                                                                                                                                                                                                                        <h3><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you need to
+                                                                                                                                                                                                                                                                                                                                            be on sure there isn’t anything embarras repeat predefined chunks as.</h3>
+                                                                                                                                                                                                                                                                                                                                        <a class="btn-theme popup-youtube" href="https://www.youtube.com/watch?v=7e90gBu4pas"><i
+                                                                                                                                                                                                                                                                                                                                                class="fa fa-play-circle"></i> Play Video</a>
+                                                                                                                                                                                                                                                                                                                                        <div class="review-ratings">
+                                                                                                                                                                                                                                                                                                                                            <a class="ratings-star" href="#">
+                                                                                                                                                                                                                                                                                                                                                <i class="fa fa-star"></i>
+                                                                                                                                                                                                                                                                                                                                                <i class="fa fa-star"></i>
+                                                                                                                                                                                                                                                                                                                                                <i class="fa fa-star"></i>
+                                                                                                                                                                                                                                                                                                                                                <i class="fa fa-star-half-empty"></i>
+                                                                                                                                                                                                                                                                                                                                                <i class="fa fa-star-o"></i>
+                                                                                                                                                                                                                                                                                                                                            </a>
+                                                                                                                                                                                                                                                                                                                                            <a class="ratings-count" href="#">(3 Ratings)</a>
+                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                                                                <div class="col-lg-7">
+                                                                                                                                                                                                                                                                                                                                    <div class="inner-title mt-25">
+                                                                                                                                                                                                                                                                                                                                        <h2>Our Client's Say</h2>
+                                                                                                                                                                                                                                                                                                                                        <div class="sec-line mb-40"></div>
+                                                                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                    <div class="testimonials-post testimonials_slide owl-carousel owl-theme owl-navst st-three">
+                                                                                                                                                                                                                                                                                                                                        <div class="testimonials-item">
+                                                                                                                                                                                                                                                                                                                                            <div class="thumb">
+                                                                                                                                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
+                                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                                            <div class="content">
+                                                                                                                                                                                                                                                                                                                                                <h5>Horem Due <small>- Traveler ut illum</small></h5>
+                                                                                                                                                                                                                                                                                                                                                <ul>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                </ul>
+                                                                                                                                                                                                                                                                                                                                                <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
+                                                                                                                                                                                                                                                                                                                                                    need to be sure there isn’t anything embarrassing hidden in the middle often repeat
+                                                                                                                                                                                                                                                                                                                                                    predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                                                                                                                                                                                                                                                                                                </p>
+                                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                        <div class="testimonials-item">
+                                                                                                                                                                                                                                                                                                                                            <div class="thumb">
+                                                                                                                                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
+                                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                                            <div class="content">
+                                                                                                                                                                                                                                                                                                                                                <h5>Horem Due <small>- Traveler ut illum</small></h5>
+                                                                                                                                                                                                                                                                                                                                                <ul>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                    <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                                                                                                                                                                                                                                                                </ul>
+                                                                                                                                                                                                                                                                                                                                                <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
+                                                                                                                                                                                                                                                                                                                                                    need to be sure there isn’t anything embarrassing hidden in the middle often repeat
+                                                                                                                                                                                                                                                                                                                                                    predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                                                                                                                                                                                                                                                                                                </p>
+                                                                                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                                                                            </div>
                                                                                                                                                                                                                                                                                                                         </div>
-                                                                                                                                                                                                                                                                                                                        <div class="content">
-                                                                                                                                                                                                                                                                                                                            <h5>Horem Due <small>- Traveler ut illum</small></h5>
-                                                                                                                                                                                                                                                                                                                            <ul>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                                                                                                                                                                                                                                                            </ul>
-                                                                                                                                                                                                                                                                                                                            <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
-                                                                                                                                                                                                                                                                                                                                need to be sure there isn’t anything embarrassing hidden in the middle often repeat
-                                                                                                                                                                                                                                                                                                                                predefined chunks as necessary, making this the first true generator on the Internet.
-                                                                                                                                                                                                                                                                                                                            </p>
-                                                                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                                                                                    <div class="testimonials-item">
-                                                                                                                                                                                                                                                                                                                        <div class="thumb">
-                                                                                                                                                                                                                                                                                                                            <img src="{{asset('website')}}/images/testimonials/1.jpg" alt="">
-                                                                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                                                                        <div class="content">
-                                                                                                                                                                                                                                                                                                                            <h5>Horem Due <small>- Traveler ut illum</small></h5>
-                                                                                                                                                                                                                                                                                                                            <ul>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                                                                                                                                                                                                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                                                                                                                                                                                                                                                            </ul>
-                                                                                                                                                                                                                                                                                                                            <p><i class="fa fa-quote-left"></i> If you are going to use a passage of Lorem Ipsum, you
-                                                                                                                                                                                                                                                                                                                                need to be sure there isn’t anything embarrassing hidden in the middle often repeat
-                                                                                                                                                                                                                                                                                                                                predefined chunks as necessary, making this the first true generator on the Internet.
-                                                                                                                                                                                                                                                                                                                            </p>
-                                                                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                                                                                </section> -->
+                                                                                                                                                                                                                                                                                                                    </section> -->
     <!-- Testimonials Section End -->
 
     <!-- Client Section Start -->
     <!-- <section class="client-section bg-f8 style-2 pb-70">
-                                                                                                                                                                                                        <div class="container">
-                                                                                                                                                                                                            <div class="row">
-                                                                                                                                                                                                                <div class="col-md-12">
-                                                                                                                                                                                                                    <div id="client_carousel" class="owl-carousel">
-                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                            <div class="client-img-item">
-                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/partner/1.png" alt="">
+                                                                                                                                                                                                                            <div class="container">
+                                                                                                                                                                                                                                <div class="row">
+                                                                                                                                                                                                                                    <div class="col-md-12">
+                                                                                                                                                                                                                                        <div id="client_carousel" class="owl-carousel">
+                                                                                                                                                                                                                                            <div class="item">
+                                                                                                                                                                                                                                                <div class="client-img-item">
+                                                                                                                                                                                                                                                    <img src="{{asset('website')}}/images/partner/1.png" alt="">
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            <div class="item">
+                                                                                                                                                                                                                                                <div class="client-img-item">
+                                                                                                                                                                                                                                                    <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            <div class="item">
+                                                                                                                                                                                                                                                <div class="client-img-item">
+                                                                                                                                                                                                                                                    <img src="{{asset('website')}}/images/partner/3.png" alt="">
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            <div class="item">
+                                                                                                                                                                                                                                                <div class="client-img-item">
+                                                                                                                                                                                                                                                    <img src="{{asset('website')}}/images/partner/4.png" alt="">
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            <div class="item">
+                                                                                                                                                                                                                                                <div class="client-img-item">
+                                                                                                                                                                                                                                                    <img src="{{asset('website')}}/images/partner/5.png" alt="">
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            <div class="item">
+                                                                                                                                                                                                                                                <div class="client-img-item">
+                                                                                                                                                                                                                                                    <img src="{{asset('website')}}/images/partner/6.png" alt="">
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                            <div class="item">
+                                                                                                                                                                                                                                                <div class="client-img-item">
+                                                                                                                                                                                                                                                    <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                </div>
                                                                                                                                                                                                                             </div>
-                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                            <div class="client-img-item">
-                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                            <div class="client-img-item">
-                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/partner/3.png" alt="">
-                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                            <div class="client-img-item">
-                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/partner/4.png" alt="">
-                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                            <div class="client-img-item">
-                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/partner/5.png" alt="">
-                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                            <div class="client-img-item">
-                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/partner/6.png" alt="">
-                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                            <div class="client-img-item">
-                                                                                                                                                                                                                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                    </section> -->
+                                                                                                                                                                                                                        </section> -->
     <!-- Client Section End -->
 
 
@@ -734,15 +775,13 @@
             <h2>Travel Booking</h2>
             <h2 id="serviceName"
                 style="
-                                                                                                                                                                                                                                                                                display:inline-block;
-
-                                                                                                                                                                                                                                                                                color:#000;
-                                                                                                                                                                                                                                                                                padding:8px;
-                                                                                                                                                                                                                                                                                border-radius:6px;
-                                                                                                                                                                                                                                                                                font-size:18px;
-                                                                                                                                                                                                                                                                                font-weight:600;
-                                                                                                                                                                                                                                                                                margin: 0 15px;
-                                                                                                                                                                                                                                                                            ">
+                                    display:inline-block;
+                                   color:#000;
+                                        padding:8px;
+                                        border-radius:6px;
+                                        font-size:18px;
+                                      font-weight:600;                                                                                                           
+                                        margin: 0 15px;                                                                                                                                                                                                ">
                 Selected Service
             </h2>
 

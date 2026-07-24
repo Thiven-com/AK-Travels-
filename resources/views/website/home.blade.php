@@ -102,27 +102,27 @@
                         <div class="icon-box">
                             <i class="fa fa-plane"></i>
                             <h5>FLIGHT BOOKING</h5>
-                            <a href="#">view more</a>
+                            <a href="{{  route('services') }}">view more</a>
                         </div>
                         <div class="icon-box">
                             <i class="fa fa-hotel"></i>
                             <h5>Hotel Reservations</h5>
-                            <a href="#">view more</a>
+                            <a href="{{ route('services') }}">view more</a>
                         </div>
                         <div class="icon-box">
                             <i class="fa fa-globe"></i>
                             <h5>VISA</h5>
-                            <a href="#">view more</a>
+                            <a href="{{ route('services') }}">view more</a>
                         </div>
                         <div class="icon-box">
                             <i class="fa fa-umbrella"></i>
                             <h5>Holiday Packages</h5>
-                            <a href="#">view more</a>
+                            <a href="{{  route('services') }}">view more</a>
                         </div>
                         <div class="icon-box">
                             <i class="fa-solid fa-helicopter"></i>
                             <h5>Charter Services</h5>
-                            <a href="#">view more</a>
+                            <a href="#{{ route('services') }}">view more</a>
                         </div>
                     </div>
                 </div>
@@ -499,115 +499,156 @@
     <!-- Features Section Start -->
     <section class="feature-section over-layer-black pt-85 pb-90">
         <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h4>Why Choose Us?</h4>
-                    <h2>Why <span>Travel</span> With Us</h2>
-                    <p>We are committed to delivering seamless, memorable, and hassle-free travel experiences with trusted
-                        service and personalized care.</p>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+
+                    <h5
+                        style="font-family:'Poppins',sans-serif;font-size:18px;font-weight:600;color:#F89A1C;letter-spacing:2px;text-transform:uppercase;">
+                        Why Choose Us
+                    </h5>
+
+                    <h2 style="font-family:'Cinzel',serif;font-size:42px;font-weight:700;color:#2F6073;margin:15px 0;">
+                        Why <span style="color:#F89A1C;">Travel</span> With Us
+                    </h2>
+
+                    <p style="font-family:'Poppins',sans-serif;font-size:17px;color:#666;line-height:1.9;">
+                        Experience personalized travel solutions with trusted service, expert planning, and unforgettable
+                        journeys.
+                    </p>
+
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row g-4">
 
-                <!-- Personalized Travel Planning -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="feature-item">
-                        <div class="icon-box">
-                            <i class="flaticon-map"></i>
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div style="background:#fff;border-radius:18px;padding:35px 25px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.4s;height:100%;"
+                        onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(47,96,115,.18)'"
+                        onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px rgba(0,0,0,.08)'">
+
+                        <div
+                            style="width:80px;height:80px;background:#F89A1C;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 25px;">
+                            <i class="fa-solid fa-route" style="font-size:34px;color:#fff;"></i>
                         </div>
-                        <div class="content">
-                            <h3>Personalized <span>Travel Planning</span></h3>
-                            <p>Customized travel itineraries designed to match your preferences, budget, and travel goals.
-                            </p>
-                        </div>
+
+                        <h3 style="font-family:'Cinzel',serif;font-size:24px;color:#2F6073;">Personalized <span
+                                style="color:#F89A1C;">Planning</span></h3>
+
+                        <p style="font-family:'Poppins',sans-serif;color:#666;line-height:1.8;">
+                            Customized itineraries designed around your interests and budget.
+                        </p>
+
                     </div>
                 </div>
 
-                <!-- Transparent Pricing -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="feature-item">
-                        <div class="icon-box">
-                            <i class="flaticon-wallet"></i>
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div style="background:#fff;border-radius:18px;padding:35px 25px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.4s;height:100%;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+
+                        <div
+                            style="width:80px;height:80px;background:#2F6073;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 25px;">
+                            <i class="fa-solid fa-wallet" style="font-size:34px;color:#fff;"></i>
                         </div>
-                        <div class="content">
-                            <h3>Transparent <span>Pricing</span></h3>
-                            <p>Enjoy honest pricing with no hidden charges, ensuring complete transparency from booking to
-                                travel.</p>
-                        </div>
+
+                        <h3 style="font-family:'Cinzel',serif;font-size:24px;color:#2F6073;">Transparent <span
+                                style="color:#F89A1C;">Pricing</span></h3>
+
+                        <p style="font-family:'Poppins',sans-serif;color:#666;line-height:1.8;">
+                            Honest pricing with no hidden costs for complete peace of mind.
+                        </p>
+
                     </div>
                 </div>
 
-                <!-- Dedicated Customer Support -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="feature-item">
-                        <div class="icon-box">
-                            <i class="flaticon-support"></i>
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div style="background:#fff;border-radius:18px;padding:35px 25px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.4s;height:100%;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+
+                        <div
+                            style="width:80px;height:80px;background:#F89A1C;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 25px;">
+                            <i class="fa-solid fa-headset" style="font-size:34px;color:#fff;"></i>
                         </div>
-                        <div class="content">
-                            <h3>Dedicated <span>Customer Support</span></h3>
-                            <p>Our friendly support team is available to assist you before, during, and after your journey.
-                            </p>
-                        </div>
+
+                        <h3 style="font-family:'Cinzel',serif;font-size:24px;color:#2F6073;">24/7 <span
+                                style="color:#F89A1C;">Support</span></h3>
+
+                        <p style="font-family:'Poppins',sans-serif;color:#666;line-height:1.8;">
+                            Dedicated assistance before, during, and after every journey.
+                        </p>
+
                     </div>
                 </div>
 
-                <!-- Carefully Curated Travel Experiences -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="feature-item">
-                        <div class="icon-box">
-                            <i class="flaticon-world"></i>
+                <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div style="background:#fff;border-radius:18px;padding:35px 25px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.4s;height:100%;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+
+                        <div
+                            style="width:80px;height:80px;background:#2F6073;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 25px;">
+                            <i class="fa-solid fa-earth-asia" style="font-size:34px;color:#fff;"></i>
                         </div>
-                        <div class="content">
-                            <h3>Curated <span>Travel Experiences</span></h3>
-                            <p>Every destination and itinerary is thoughtfully selected to provide unforgettable travel
-                                memories.</p>
-                        </div>
+
+                        <h3 style="font-family:'Cinzel',serif;font-size:24px;color:#2F6073;">Curated <span
+                                style="color:#F89A1C;">Experiences</span></h3>
+
+                        <p style="font-family:'Poppins',sans-serif;color:#666;line-height:1.8;">
+                            Handpicked destinations for unforgettable travel memories.
+                        </p>
+
                     </div>
                 </div>
 
-                <!-- Reliable Travel Partners -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="feature-item">
-                        <div class="icon-box">
-                            <i class="flaticon-team"></i>
+                <!-- Card 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div style="background:#fff;border-radius:18px;padding:35px 25px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.4s;height:100%;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+
+                        <div
+                            style="width:80px;height:80px;background:#F89A1C;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 25px;">
+                            <i class="fa-solid fa-handshake" style="font-size:34px;color:#fff;"></i>
                         </div>
-                        <div class="content">
-                            <h3>Reliable <span>Travel Partners</span></h3>
-                            <p>We collaborate with trusted airlines, hotels, and local partners to ensure quality service.
-                            </p>
-                        </div>
+
+                        <h3 style="font-family:'Cinzel',serif;font-size:24px;color:#2F6073;">Trusted <span
+                                style="color:#F89A1C;">Partners</span></h3>
+
+                        <p style="font-family:'Poppins',sans-serif;color:#666;line-height:1.8;">
+                            Reliable airline, hotel, and travel partners worldwide.
+                        </p>
+
                     </div>
                 </div>
 
-                <!-- End-to-End Travel Assistance -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="feature-item">
-                        <div class="icon-box">
-                            <i class="flaticon-airplane"></i>
-                        </div>
-                        <div class="content">
-                            <h3>End-to-End <span>Travel Assistance</span></h3>
-                            <p>From planning and booking to your return journey, we provide complete travel support.</p>
-                        </div>
-                    </div>
-                </div>
+                <!-- Card 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div style="background:#fff;border-radius:18px;padding:35px 25px;text-align:center;box-shadow:0 10px 30px rgba(0,0,0,.08);transition:.4s;height:100%;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
 
-                <!-- Commitment to Customer Satisfaction -->
-                <div class="col-lg-4 col-md-6 mx-auto">
-                    <div class="feature-item last">
-                        <div class="icon-box">
-                            <i class="flaticon-like"></i>
+                        <div
+                            style="width:80px;height:80px;background:#2F6073;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 25px;">
+                            <i class="fa-solid fa-plane-departure" style="font-size:34px;color:#fff;"></i>
                         </div>
-                        <div class="content">
-                            <h3>Customer <span>Satisfaction</span></h3>
-                            <p>Your happiness is our priority, and we strive to exceed your expectations with every trip.
-                            </p>
-                        </div>
+
+                        <h3 style="font-family:'Cinzel',serif;font-size:24px;color:#2F6073;">Complete <span
+                                style="color:#F89A1C;">Assistance</span></h3>
+
+                        <p style="font-family:'Poppins',sans-serif;color:#666;line-height:1.8;">
+                            End-to-end travel support from planning to your safe return.
+                        </p>
+
                     </div>
                 </div>
 
             </div>
+
         </div>
     </section>
     <!-- Feature Section End -->
@@ -617,15 +658,43 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <div class="section-title stitle-left">
-                        <h4>Our Special Services</h4>
-                        <h2>Exceptional <span>Travel Services</span> We Offer</h2>
 
-                        <p>We offer comprehensive travel solutions tailored to your needs, ensuring every journey is
-                            seamless, stress-free, and unforgettable. From flight bookings and visa assistance to customized
-                            holiday packages and luxury travel, our dedicated team is committed to delivering exceptional
-                            service at every step.</p>
+                    <div style="padding:20px 0;">
+
+                        <h4 style="font-family:'Poppins',sans-serif;
+                                   font-size:18px;
+                                   font-weight:600;
+                                   color:#F89A1C;
+                                   text-transform:uppercase;
+                                   letter-spacing:2px;
+                                   margin-bottom:10px;">
+                            Our Special Services
+                        </h4>
+
+                        <h2 style="font-family:'Cinzel',serif;
+                                   font-size:42px;
+                                   font-weight:700;
+                                   color:#2F6073;
+                                   line-height:1.3;
+                                   margin-bottom:20px;">
+                            Exceptional
+                            <span style="color:#F89A1C;">Travel Services</span>
+                            We Offer
+                        </h2>
+
+                        <p style="font-family:'Poppins',sans-serif;
+                      font-size:17px;
+                      line-height:1.9;
+                      color:#666;
+                      max-width:850px;
+                      text-align:justify;
+                      margin-bottom:0;">
+                            Discover personalized travel solutions, from flights and hotels to visa assistance and holiday
+                            packages, designed to make every journey seamless and memorable.
+                        </p>
+
                     </div>
+
                 </div>
             </div>
             <div class="row">
@@ -648,35 +717,35 @@
                                         </div>
                                         <div class="content">
                                             <!-- <ul class="info">
-                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                    </ul> -->
+                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                            </ul> -->
                                             <p>Explore destinations worldwide with reliable flight booking services,
                                                 offering the best fares, convenient schedules, and personalized travel
                                                 assistance.</p>
                                             <!-- <div class="small-hotel">
-                                                                        <div class="text">
-                                                                            <h6>Fly Anywhere</h6>
-                                                                            <h5>Domestic & International Flight Bookings</h5>
-                                                                            <ul>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                <li><a href="#">(3 Ratings)</a></li>
-                                                                            </ul>
-                                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
-                                                                                Map</a>
-                                                                        </div>
-                                                                        <div class="thumb">
-                                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
-                                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
+                                                                                                <div class="text">
+                                                                                                    <h6>Fly Anywhere</h6>
+                                                                                                    <h5>Domestic & International Flight Bookings</h5>
+                                                                                                    <ul>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                        <li><a href="#">(3 Ratings)</a></li>
+                                                                                                    </ul>
+                                                                                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
+                                                                                                        Map</a>
+                                                                                                </div>
+                                                                                                <div class="thumb">
+                                                                                                    <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
+                                                                                                    <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
+                                                                                            <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -695,35 +764,35 @@
                                         </div>
                                         <div class="content">
                                             <!-- <ul class="info">
-                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                    </ul> -->
+                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                            </ul> -->
                                             <p>Enjoy personalized air travel with private jets and helicopter charters,
                                                 ensuring luxury, convenience, and efficient journeys to your desired
                                                 destinations.</p>
                                             <!-- <div class="small-hotel">
-                                                                        <div class="text">
-                                                                            <h6>Exclusive Air Charter</h6>
-                                                                            <h5>Private Jets & Helicopter Services</h5>
-                                                                            <ul>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                <li><a href="#">(3 Ratings)</a></li>
-                                                                            </ul>
-                                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
-                                                                                Map</a>
-                                                                        </div>
-                                                                        <div class="thumb">
-                                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
-                                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
+                                                                                                <div class="text">
+                                                                                                    <h6>Exclusive Air Charter</h6>
+                                                                                                    <h5>Private Jets & Helicopter Services</h5>
+                                                                                                    <ul>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                        <li><a href="#">(3 Ratings)</a></li>
+                                                                                                    </ul>
+                                                                                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
+                                                                                                        Map</a>
+                                                                                                </div>
+                                                                                                <div class="thumb">
+                                                                                                    <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
+                                                                                                    <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
+                                                                                            <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -742,34 +811,34 @@
                                         </div>
                                         <div class="content">
                                             <!-- <ul class="info">
-                                                                        <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
-                                                                        <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
-                                                                        <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
-                                                                    </ul> -->
+                                                                                                <li><a href="#"><i class="fa fa-calendar"></i>4 Days</a></li>
+                                                                                                <li><a href="#"><i class="fa fa-user"></i>2 Person</a></li>
+                                                                                                <li><a href="#"><i class="fa fa-map-marker"></i>View on Map</a></li>
+                                                                                            </ul> -->
                                             <p>From relaxing beach vacations to exciting adventure tours, enjoy customized
                                                 holiday packages crafted to suit your travel preferences and schedule.</p>
                                             <!-- <div class="small-hotel">
-                                                                        <div class="text">
-                                                                            <h6>Personalized Travel Plans</h6>
-                                                                            <h5>Customized Holiday Packages</h5>
-                                                                            <ul>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                                                <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
-                                                                                <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
-                                                                                <li><a href="#">(3 Ratings)</a></li>
-                                                                            </ul>
-                                                                            <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
-                                                                                Map</a>
-                                                                        </div>
-                                                                        <div class="thumb">
-                                                                            <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
-                                                                            <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
-                                                                        </div>
-                                                                    </div>
-                                                                    <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
-                                                                    <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
+                                                                                                <div class="text">
+                                                                                                    <h6>Personalized Travel Plans</h6>
+                                                                                                    <h5>Customized Holiday Packages</h5>
+                                                                                                    <ul>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa fa-star-half-empty"></i></a></li>
+                                                                                                        <li><a href="#"><i class="fa  fa-star-o"></i></a></li>
+                                                                                                        <li><a href="#">(3 Ratings)</a></li>
+                                                                                                    </ul>
+                                                                                                    <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on
+                                                                                                        Map</a>
+                                                                                                </div>
+                                                                                                <div class="thumb">
+                                                                                                    <img src="{{asset('website')}}/images/features/sm1.jpg" alt="">
+                                                                                                    <img src="{{asset('website')}}/images/features/sm2.jpg" alt="">
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <h5 class="share-btn"><i class="fa fa-share-alt"></i> Share</h5>
+                                                                                            <a class="btn-theme" href="{{ route('services') }}">View Details</a> -->
                                         </div>
                                     </div>
                                 </div>
@@ -778,83 +847,119 @@
                     </div>
                 </div>
                 <!-- <div class="col-lg-3">
-                                <div class="add-box thumb">
-                                    <img src="{{asset('website')}}/images/features/ad-1.png" alt="">
-                                </div>
-                            </div> -->
+                                                        <div class="add-box thumb">
+                                                            <img src="{{asset('website')}}/images/features/ad-1.png" alt="">
+                                                        </div>
+                                                    </div> -->
             </div>
         </div>
     </section>
     <!-- Special Packages Section End -->
 
     <!-- Funfact Section Start -->
-    <section class="funfact-section over-layer-black pt-90 pb-60">
+    <section style="padding:90px 0 60px; background:linear-gradient(135deg,#2F6073,#173A66);">
+
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="video-sec">
-                        <h2>Trusted <span>Travel</span> Excellence </h2>
-                        <p> Delivering exceptional travel experiences with personalized service, trusted partnerships, and a
-                            commitment to customer satisfaction every step of the way.</p>
-                        <div class="video-content">
-                            <img src="{{asset('website')}}/images/photos/video-img.png" alt="image">
-                            <!-- <div class="overlay">
-                                                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="popup-youtube"><i
-                                                                class="ficon fa fa-play-circle"></i></a>
-                                                    </div> -->
-                        </div>
+
+            <div class="row align-items-center">
+
+                <!-- Left -->
+                <div class="col-lg-6" data-aos="fade-right">
+
+                    <h2
+                        style="font-family:'Cinzel',serif;font-size:42px;font-weight:700;color:#fff;line-height:1.3;margin-bottom:20px;">
+                        Trusted <span style="color:#F89A1C;">Travel</span> Excellence
+                    </h2>
+
+                    <p
+                        style="font-family:'Poppins',sans-serif;font-size:17px;line-height:1.9;color:#e8eef2;margin-bottom:35px;">
+                        Delivering exceptional travel experiences with personalized service,
+                        trusted partnerships, and a commitment to customer satisfaction every step of the way.
+                    </p>
+
+                    <div data-aos="zoom-in" data-aos-delay="300"
+                        style="border-radius:15px;overflow:hidden;box-shadow:0 15px 35px rgba(0,0,0,.25);transition:.4s;">
+                        <img src="{{asset('website')}}/images/photos/video-img.png"
+                            style="width:100%;display:block;transition:.5s;"
+                            onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
                     </div>
+
                 </div>
+
+                <!-- Right -->
                 <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="funfact-item">
-                                <div class="icon-box">
-                                    <i class="fa fa-location-arrow"></i>
-                                </div>
-                                <div class="content">
-                                    <h2>2583</h2>
-                                    <h3><a href="#">Travel Package</a></h3>
-                                </div>
+
+                    <div class="row g-4">
+
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.15);transition:.4s;"
+                                onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,.25)'"
+                                onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 25px rgba(0,0,0,.15)'">
+
+                                <i class="fa fa-location-arrow"
+                                    style="font-size:42px;color:#F89A1C;margin-bottom:15px;"></i>
+
+                                <h2 style="font-family:'Poppins',sans-serif;font-size:36px;font-weight:700;color:#2F6073;">
+                                    2583</h2>
+
+                                <h5 style="font-family:'Poppins',sans-serif;color:#555;">Travel Packages</h5>
+
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="funfact-item">
-                                <div class="icon-box">
-                                    <i class="fa fa-plane"></i>
-                                </div>
-                                <div class="content">
-                                    <h2>1879</h2>
-                                    <h3><a href="#">Locations Made</a></h3>
-                                </div>
+
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="250">
+                            <div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.15);transition:.4s;"
+                                onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,.25)'"
+                                onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 25px rgba(0,0,0,.15)'">
+
+                                <i class="fa fa-plane" style="font-size:42px;color:#2F6073;margin-bottom:15px;"></i>
+
+                                <h2 style="font-family:'Poppins',sans-serif;font-size:36px;font-weight:700;color:#F89A1C;">
+                                    1879</h2>
+
+                                <h5 style="font-family:'Poppins',sans-serif;color:#555;">Destinations</h5>
+
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="funfact-item">
-                                <div class="icon-box">
-                                    <i class="fa fa-users"></i>
-                                </div>
-                                <div class="content">
-                                    <h2>7215</h2>
-                                    <h3><a href="#">Satisfied Client</a></h3>
-                                </div>
+
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                            <div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.15);transition:.4s;"
+                                onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,.25)'"
+                                onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 25px rgba(0,0,0,.15)'">
+
+                                <i class="fa fa-users" style="font-size:42px;color:#F89A1C;margin-bottom:15px;"></i>
+
+                                <h2 style="font-family:'Poppins',sans-serif;font-size:36px;font-weight:700;color:#2F6073;">
+                                    7215</h2>
+
+                                <h5 style="font-family:'Poppins',sans-serif;color:#555;">Happy Travelers</h5>
+
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="funfact-item">
-                                <div class="icon-box">
-                                    <i class="fa fa-thumbs-up"></i>
-                                </div>
-                                <div class="content">
-                                    <h2>1639</h2>
-                                    <h3><a href="#">Recomended Trip</a></h3>
-                                </div>
+
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="550">
+                            <div style="background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.15);transition:.4s;"
+                                onmouseover="this.style.transform='translateY(-10px)';this.style.boxShadow='0 20px 40px rgba(0,0,0,.25)'"
+                                onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 10px 25px rgba(0,0,0,.15)'">
+
+                                <i class="fa fa-thumbs-up" style="font-size:42px;color:#2F6073;margin-bottom:15px;"></i>
+
+                                <h2 style="font-family:'Poppins',sans-serif;font-size:36px;font-weight:700;color:#F89A1C;">
+                                    1639</h2>
+
+                                <h5 style="font-family:'Poppins',sans-serif;color:#555;">Recommended Trips</h5>
+
                             </div>
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
     <!-- Funfact Section End -->
 
@@ -892,7 +997,7 @@
                                         featuring premium stays, unforgettable experiences, and personalized travel
                                         services..</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                            <h3>Off <span>-30%</span></h3> -->
+                                                                                    <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -916,7 +1021,7 @@
                                     <p>Get reliable visa assistance with end-to-end support, ensuring a smooth application
                                         process and hassle-free travel to your chosen destination..</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                        <h3>Off <span>-30%</span></h3> -->
+                                                                                <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -940,7 +1045,7 @@
                                     <p>From relaxing beach vacations to exciting adventure tours, enjoy customized holiday
                                         packages crafted to suit your travel preferences and schedule..</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -965,7 +1070,7 @@
                                     <p>Explore destinations worldwide with reliable flight booking services, offering the
                                         best fares, convenient schedules, and personalized travel assistance.</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -990,7 +1095,7 @@
                                     <p>Enjoy personalized air travel with private jets and helicopter charters, ensuring
                                         luxury, convenience, and efficient journeys to your desired destinations.</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -1015,7 +1120,7 @@
                                     <p>Book quality hotels worldwide with the best rates, convenient locations, and
                                         comfortable accommodations for a relaxing and memorable stay.</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -1040,7 +1145,7 @@
                                     <p>Travel with ease using our airport pickup, drop-off, and local transportation
                                         services, ensuring comfort, convenience, and on-time arrivals every time.</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -1065,7 +1170,7 @@
                                     <p>Create lasting memories with family and friends through well-planned group tours,
                                         exciting destinations, and personalized travel experiences for all ages.</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -1090,7 +1195,7 @@
                                     <p>Streamline your business travel with efficient booking, customized itineraries,
                                         cost-effective solutions, and dedicated support for corporate travelers.</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -1116,7 +1221,7 @@
                                         comprehensive travel insurance covering medical emergencies, delays, and
                                         cancellations.</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -1142,7 +1247,7 @@
                                         personalized itineraries, and unforgettable adventures that match your interests and
                                         budget.</p>
                                     <!-- <a class="map-viw" href="#"><i class="fa fa-map-marker"></i>View on Map</a>
-                                                    <h3>Off <span>-30%</span></h3> -->
+                                                                            <h3>Off <span>-30%</span></h3> -->
                                     <a class="btn-theme" href="{{ route('services') }}">View Details</a>
                                 </div>
                             </div>
@@ -1171,20 +1276,46 @@
                             Our dedicated team ensures every journey is comfortable, hassle-free, and
                             tailored to your preferences.
                         </p>
-                        <h4>Our Travel Services Include:</h4>
+                        <h4
+                            style="font-family:'Cinzel', serif; font-size:28px; font-weight:700; color:#2F6073; margin-bottom:25px;">
+                            Our Travel Services Include:
+                        </h4>
 
-                        <ul>
-                            <li>Domestic and International Tour Packages</li>
-                            <li>Flight, Hotel, and Transportation Bookings</li>
-                            <li>Visa Assistance and Travel Insurance</li>
-                            <li>24/7 Customer Support Throughout Your Journey</li>
+                        <ul style="list-style:none; padding:0; margin:0; font-family:'Poppins', sans-serif;">
+
+                            <li
+                                style="display:flex; align-items:flex-start; gap:15px; margin-bottom:18px; font-size:17px; color:#555; line-height:1.8;">
+                                <i class="fa-solid fa-earth-asia"
+                                    style="color:#F89A1C; font-size:20px; margin-top:5px;"></i>
+                                <span>Domestic and International Tour Packages</span>
+                            </li>
+
+                            <li
+                                style="display:flex; align-items:flex-start; gap:15px; margin-bottom:18px; font-size:17px; color:#555; line-height:1.8;">
+                                <i class="fa-solid fa-plane-departure"
+                                    style="color:#2F6073; font-size:20px; margin-top:5px;"></i>
+                                <span>Flight, Hotel, and Transportation Bookings</span>
+                            </li>
+
+                            <li
+                                style="display:flex; align-items:flex-start; gap:15px; margin-bottom:18px; font-size:17px; color:#555; line-height:1.8;">
+                                <i class="fa-solid fa-passport" style="color:#F89A1C; font-size:20px; margin-top:5px;"></i>
+                                <span>Visa Assistance and Travel Insurance</span>
+                            </li>
+
+                            <li
+                                style="display:flex; align-items:flex-start; gap:15px; margin-bottom:0; font-size:17px; color:#555; line-height:1.8;">
+                                <i class="fa-solid fa-headset" style="color:#2F6073; font-size:20px; margin-top:5px;"></i>
+                                <span>24/7 Customer Support Throughout Your Journey</span>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-8 col-md-10" style="margin-top:20px;">
                     <div class="map-area">
-                        <iframe src="https://www.google.com/maps?q=Coimbatore&output=embed" width="100%"
-                            height="400" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"
+                        <iframe src="https://www.google.com/maps?q=Coimbatore&output=embed" width="100%" height="400"
+                            style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
@@ -1403,8 +1534,8 @@
                         vacation, a honeymoon, or an international adventure, our expert team ensures every journey is
                         seamless from start to finish.</p>
                     <!-- 
-                        <a class="btn-theme" href="#">Download App</a>
-                        <a class="btn-theme btn-two" href="#">Subscribe Now</a> -->
+                                                <a class="btn-theme" href="#">Download App</a>
+                                                <a class="btn-theme btn-two" href="#">Subscribe Now</a> -->
                 </div>
             </div>
         </div>
@@ -1773,49 +1904,61 @@
 
     <!-- Client Section Start -->
     <!-- <section class="client-section bg-f8 pb-70 pt-70">
-                                                                                        <div class="container">
-                                                                                            <div class="row">
-                                                                                                <div class="col-md-12">
-                                                                                                    <div id="client_carousel" class="owl-carousel">
-                                                                                                        <div class="item">
-                                                                                                            <div class="client-img-item">
-                                                                                                                <img src="{{asset('website')}}/images/partner/1.png" alt="">
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="item">
-                                                                                                            <div class="client-img-item">
-                                                                                                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="item">
-                                                                                                            <div class="client-img-item">
-                                                                                                                <img src="{{asset('website')}}/images/partner/3.png" alt="">
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="item">
-                                                                                                            <div class="client-img-item">
-                                                                                                                <img src="{{asset('website')}}/images/partner/4.png" alt="">
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="item">
-                                                                                                            <div class="client-img-item">
-                                                                                                                <img src="{{asset('website')}}/images/partner/5.png" alt="">
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="item">
-                                                                                                            <div class="client-img-item">
-                                                                                                                <img src="{{asset('website')}}/images/partner/6.png" alt="">
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                        <div class="item">
-                                                                                                            <div class="client-img-item">
-                                                                                                                <img src="{{asset('website')}}/images/partner/2.png" alt="">
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </section> -->
+                                                                                                                <div class="container">
+                                                                                                                    <div class="row">
+                                                                                                                        <div class="col-md-12">
+                                                                                                                            <div id="client_carousel" class="owl-carousel">
+                                                                                                                                <div class="item">
+                                                                                                                                    <div class="client-img-item">
+                                                                                                                                        <img src="{{asset('website')}}/images/partner/1.png" alt="">
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="item">
+                                                                                                                                    <div class="client-img-item">
+                                                                                                                                        <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="item">
+                                                                                                                                    <div class="client-img-item">
+                                                                                                                                        <img src="{{asset('website')}}/images/partner/3.png" alt="">
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="item">
+                                                                                                                                    <div class="client-img-item">
+                                                                                                                                        <img src="{{asset('website')}}/images/partner/4.png" alt="">
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="item">
+                                                                                                                                    <div class="client-img-item">
+                                                                                                                                        <img src="{{asset('website')}}/images/partner/5.png" alt="">
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="item">
+                                                                                                                                    <div class="client-img-item">
+                                                                                                                                        <img src="{{asset('website')}}/images/partner/6.png" alt="">
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="item">
+                                                                                                                                    <div class="client-img-item">
+                                                                                                                                        <img src="{{asset('website')}}/images/partner/2.png" alt="">
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </section> -->
     <!-- Client Section End -->
+
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true,
+            easing: 'ease-in-out'
+        });
+    </script>
+
 @endsection
