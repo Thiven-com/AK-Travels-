@@ -102,7 +102,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/flight1.png" alt="">
+                                    <img src="{{asset('website')}}/images/flight1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/family2.png" alt="">
                                 </div>
                             </div>
@@ -140,7 +140,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/jet1.png" alt="">
+                                    <img src="{{asset('website')}}/images/jet1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/jet2.png" alt="">
                                 </div>
                             </div>
@@ -177,7 +177,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/holid1.png" alt="">
+                                    <img src="{{asset('website')}}/images/holid1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/holid2.png" alt="">
                                 </div>
                             </div>
@@ -216,7 +216,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/hotel1.png" alt="">
+                                    <img src="{{asset('website')}}/images/hotel1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/hotel2.png" alt="">
                                 </div>
                             </div>
@@ -256,7 +256,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/visa1.png" alt="">
+                                    <img src="{{asset('website')}}/images/visa1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/visa2.png" alt="">
                                 </div>
                             </div>
@@ -296,7 +296,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/trans1.png" alt="">
+                                    <img src="{{asset('website')}}/images/trans1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/trans2.png" alt="">
                                 </div>
                             </div>
@@ -337,7 +337,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/honey1.png" alt="">
+                                    <img src="{{asset('website')}}/images/honey1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/honey2.png" alt="">
                                 </div>
                             </div>
@@ -376,7 +376,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/family1.png" alt="">
+                                    <img src="{{asset('website')}}/images/family1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/family2.png" alt="">
                                 </div>
                             </div>
@@ -416,7 +416,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/corp1.png" alt="">
+                                    <img src="{{asset('website')}}/images/corp1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/corp2.png" alt="">
                                 </div>
                             </div>
@@ -457,7 +457,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/insu1.png" alt="">
+                                    <img src="{{asset('website')}}/images/insu1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/insu2.png" alt="">
                                 </div>
                             </div>
@@ -499,7 +499,7 @@
                                     </ul>
                                 </div>
                                 <div class="thumb">
-                                    <img src="{{asset('website')}}/images/tailo1.png" alt="">
+                                    <img src="{{asset('website')}}/images/tailo1.png" alt="" style="margin-right: 2px;">
                                     <img src="{{asset('website')}}/images/tailo2.png" alt="">
                                 </div>
                             </div>

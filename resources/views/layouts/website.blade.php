@@ -77,8 +77,8 @@
                                             target="_blank" title="Instagram"><i class="fa fa-instagram"
                                                 aria-hidden="true"></i></a></li>
 
-                                    <li> <a href="https://www.aktravelsolutions.in" target="_blank" title="Website"><i
-                                                class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                    <!-- <li> <a href="https://www.aktravelsolutions.in" target="_blank" title="Website"><i
+                                                class="fa fa-dribbble" aria-hidden="true"></i></a></li> -->
 
                                     <li><a href="https://youtube.com/@akexploreandexperience?si=zGFZ9nx__qJwICT6"
                                             target="_blank" title="YouTube">
@@ -234,9 +234,9 @@
                                     <li><a href="https://www.instagram.com/ak_exploreandexperience?igsh=MTkxanVob3Nyamticw=="
                                             target="_blank" title="Instagram"><i class="fa fa-instagram"
                                                 aria-hidden="true"></i></a></li>
-
+<!-- 
                                     <li> <a href="https://www.aktravelsolutions.in" target="_blank" title="Website"><i
-                                                class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                                                class="fa fa-dribbble" aria-hidden="true"></i></a></li> -->
 
                                     <li><a href="https://youtube.com/@akexploreandexperience?si=zGFZ9nx__qJwICT6"
                                             target="_blank" title="YouTube">
@@ -330,7 +330,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <p>© 2026, All Rights Reserved, Design & Developed By:<a href="#"> ThiVen</a></p>
+                        <p>© 2026, All Rights Reserved, Developed By:<a href="#"> ThiVen</a></p>
                     </div>
                 </div>
             </div>
